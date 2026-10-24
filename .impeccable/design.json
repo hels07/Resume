@@ -1,0 +1,663 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-24T11:26:38+00:00",
+  "title": "Design System: Raees Feysal Temam",
+  "extensions": {
+    "colorMeta": {
+      "night-0": {
+        "role": "neutral",
+        "displayName": "Night Zero",
+        "canonical": "#040814",
+        "tonalRamp": [
+          "#0d1940",
+          "#162c6e",
+          "#1f3f9d",
+          "#2952cc",
+          "#5174dc",
+          "#7f99e6",
+          "#b2c2f0",
+          "#eaeefb"
+        ]
+      },
+      "night-1": {
+        "role": "neutral",
+        "displayName": "Night One",
+        "canonical": "#071029",
+        "tonalRamp": [
+          "#0b1941",
+          "#132c71",
+          "#1c3fa1",
+          "#2452d1",
+          "#4c74e1",
+          "#7c99e9",
+          "#b1c2f2",
+          "#e9eefb"
+        ]
+      },
+      "night-2": {
+        "role": "neutral",
+        "displayName": "Night Two",
+        "canonical": "#0c1a3d",
+        "tonalRamp": [
+          "#0d1b40",
+          "#162f6f",
+          "#1f439e",
+          "#2857cd",
+          "#5078dd",
+          "#7f9ce6",
+          "#b2c4f0",
+          "#eaeffb"
+        ]
+      },
+      "night-3": {
+        "role": "neutral",
+        "displayName": "Night Three",
+        "canonical": "#14275c",
+        "tonalRamp": [
+          "#0e1b3f",
+          "#182e6d",
+          "#22429b",
+          "#2c55c9",
+          "#5377da",
+          "#819be4",
+          "#b4c3ef",
+          "#eaeefa"
+        ]
+      },
+      "ink": {
+        "role": "neutral",
+        "displayName": "Warm-White Ink",
+        "canonical": "#f4efe4",
+        "tonalRamp": [
+          "#362c16",
+          "#5e4d26",
+          "#866d37",
+          "#ae8e47",
+          "#c2a76a",
+          "#d3bf92",
+          "#e4d8be",
+          "#f8f4ed"
+        ]
+      },
+      "ink-2": {
+        "role": "neutral",
+        "displayName": "Mist",
+        "canonical": "#c6cbe0",
+        "tonalRamp": [
+          "#1b1f32",
+          "#2f3656",
+          "#424d7a",
+          "#56649f",
+          "#7883b5",
+          "#9ca5c9",
+          "#c4c9df",
+          "#eef0f6"
+        ]
+      },
+      "ink-3": {
+        "role": "neutral",
+        "displayName": "Dusk",
+        "canonical": "#9aa4c4",
+        "tonalRamp": [
+          "#1c2130",
+          "#313954",
+          "#465177",
+          "#5a6a9b",
+          "#7b88b2",
+          "#9ea8c7",
+          "#c5cbdd",
+          "#eff0f6"
+        ]
+      },
+      "blue": {
+        "role": "primary",
+        "displayName": "Canopy Blue",
+        "canonical": "#4f8cff",
+        "tonalRamp": [
+          "#001b4c",
+          "#002e85",
+          "#0041bd",
+          "#0055f5",
+          "#2e76ff",
+          "#669bff",
+          "#a3c3ff",
+          "#e5eeff"
+        ]
+      },
+      "blue-2": {
+        "role": "primary",
+        "displayName": "Pale Canopy",
+        "canonical": "#8fb8ff",
+        "tonalRamp": [
+          "#001c4c",
+          "#003185",
+          "#0045bd",
+          "#005af5",
+          "#2e7aff",
+          "#669eff",
+          "#a3c5ff",
+          "#e5efff"
+        ]
+      },
+      "blue-3": {
+        "role": "primary",
+        "displayName": "Moonlit Blue",
+        "canonical": "#cfe0ff",
+        "tonalRamp": [
+          "#001b4c",
+          "#002f85",
+          "#0043bd",
+          "#0057f5",
+          "#2e78ff",
+          "#669cff",
+          "#a3c4ff",
+          "#e5efff"
+        ]
+      },
+      "gold": {
+        "role": "secondary",
+        "displayName": "Horizon Gold",
+        "canonical": "#ffb347",
+        "tonalRamp": [
+          "#4c2d00",
+          "#854e00",
+          "#bd6f00",
+          "#f59000",
+          "#ffa92e",
+          "#ffc066",
+          "#ffd9a3",
+          "#fff4e5"
+        ]
+      },
+      "ember": {
+        "role": "secondary",
+        "displayName": "Ember",
+        "canonical": "#ff7a1f",
+        "tonalRamp": [
+          "#4c1f00",
+          "#853600",
+          "#bd4d00",
+          "#f56300",
+          "#ff832e",
+          "#ffa466",
+          "#ffc8a3",
+          "#fff0e5"
+        ]
+      },
+      "gold-ink": {
+        "role": "secondary",
+        "displayName": "Gold Ink",
+        "canonical": "#ffd08a",
+        "tonalRamp": [
+          "#4c2e00",
+          "#854f00",
+          "#bd7100",
+          "#f59200",
+          "#ffab2e",
+          "#ffc266",
+          "#ffdaa3",
+          "#fff5e5"
+        ]
+      },
+      "disc-red": {
+        "role": "tertiary",
+        "displayName": "Disc Red",
+        "canonical": "#ff5b45",
+        "tonalRamp": [
+          "#4c0900",
+          "#851000",
+          "#bd1600",
+          "#f51d00",
+          "#ff472e",
+          "#ff7866",
+          "#ffaea3",
+          "#ffe9e5"
+        ]
+      },
+      "disc-yellow": {
+        "role": "tertiary",
+        "displayName": "Disc Yellow",
+        "canonical": "#ffc93d",
+        "tonalRamp": [
+          "#4c3700",
+          "#856000",
+          "#bd8800",
+          "#f5b100",
+          "#ffc52e",
+          "#ffd466",
+          "#ffe5a3",
+          "#fff8e5"
+        ]
+      },
+      "sky-zenith": {
+        "role": "neutral",
+        "displayName": "Sky Zenith (shader)",
+        "canonical": "#01030b",
+        "tonalRamp": [
+          "#061346",
+          "#0b217a",
+          "#102fad",
+          "#143de0",
+          "#3f62ee",
+          "#738cf2",
+          "#abbaf7",
+          "#e8ecfd"
+        ]
+      },
+      "sky-mid": {
+        "role": "neutral",
+        "displayName": "Sky Mid (shader)",
+        "canonical": "#081d4e",
+        "tonalRamp": [
+          "#071a45",
+          "#0c2d78",
+          "#1240ab",
+          "#1753de",
+          "#4174ec",
+          "#749af1",
+          "#acc2f6",
+          "#e8eefd"
+        ]
+      },
+      "sky-horizon": {
+        "role": "neutral",
+        "displayName": "Sky Horizon (shader)",
+        "canonical": "#164a86",
+        "tonalRamp": [
+          "#0b2442",
+          "#133f72",
+          "#1b5aa2",
+          "#2374d2",
+          "#4b91e2",
+          "#7cafe9",
+          "#b0cff2",
+          "#e9f2fb"
+        ]
+      },
+      "sky-gold": {
+        "role": "secondary",
+        "displayName": "Sky Gold (shader)",
+        "canonical": "#ffae42",
+        "tonalRamp": [
+          "#4c2c00",
+          "#854c00",
+          "#bd6c00",
+          "#f58c00",
+          "#ffa52e",
+          "#ffbd66",
+          "#ffd8a3",
+          "#fff4e5"
+        ]
+      },
+      "sky-ember": {
+        "role": "secondary",
+        "displayName": "Sky Ember (shader)",
+        "canonical": "#ff6417",
+        "tonalRamp": [
+          "#4c1900",
+          "#852c00",
+          "#bd3f00",
+          "#f55100",
+          "#ff732e",
+          "#ff9966",
+          "#ffc2a3",
+          "#ffeee5"
+        ]
+      },
+      "glass": {
+        "role": "neutral",
+        "displayName": "Night Glass",
+        "canonical": "rgba(8,16,42,.62)"
+      },
+      "glass-strong": {
+        "role": "neutral",
+        "displayName": "Night Glass Strong",
+        "canonical": "rgba(6,13,34,.8)"
+      },
+      "line": {
+        "role": "neutral",
+        "displayName": "Hairline",
+        "canonical": "rgba(255,255,255,.12)"
+      },
+      "line-2": {
+        "role": "neutral",
+        "displayName": "Hairline Strong",
+        "canonical": "rgba(255,255,255,.2)"
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Display",
+        "purpose": "The name only; drawn to a WebGL canvas texture as RAEES (0.035em tracking) behind the tree when WebGL is on."
+      },
+      "headline": {
+        "displayName": "Headline",
+        "purpose": "Section heads; the contact close and About quote are larger siblings."
+      },
+      "counter": {
+        "displayName": "Counter",
+        "purpose": "Plate numbers 01 / 05 and forecaster step numbers."
+      },
+      "title": {
+        "displayName": "Title",
+        "purpose": "Plate, panel and experience-org titles (weight 400)."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Running text; supporting paragraphs in ink-2."
+      },
+      "lede": {
+        "displayName": "Lede",
+        "purpose": "First paragraph of a plate, in full ink."
+      },
+      "label": {
+        "displayName": "Label",
+        "purpose": "Nav links, buttons, tabs, chips."
+      },
+      "caption": {
+        "displayName": "Caption",
+        "purpose": "dt labels, captions, chart axes and meta, in ink-3."
+      }
+    },
+    "shadows": [
+      {
+        "name": "glass-highlight",
+        "value": "inset 0 1px 0 rgba(255,255,255,.06)",
+        "purpose": "Top-edge light on plates, panels and the experience list."
+      },
+      {
+        "name": "lifted-control",
+        "value": "0 10px 24px -12px rgba(0,0,0,.9), inset 0 1px 0 rgba(255,255,255,.7)",
+        "purpose": "Ink button."
+      },
+      {
+        "name": "floating-card",
+        "value": "0 14px 22px -12px rgba(0,0,0,.85), inset 0 1px 0 rgba(255,255,255,.08)",
+        "purpose": "Fan cards, email pill, contact keys."
+      },
+      {
+        "name": "framed-media",
+        "value": "0 16px 24px -14px rgba(0,0,0,.9)",
+        "purpose": "Browser frame and phone mock."
+      },
+      {
+        "name": "nav-glass",
+        "value": "0 10px 22px -14px rgba(0,0,0,.85), inset 0 1px 0 rgba(255,255,255,.07)",
+        "purpose": "Nav pill."
+      },
+      {
+        "name": "sky-text",
+        "value": "0 2px 30px rgba(4,8,20,.7)",
+        "purpose": "text-shadow for headings over the open night."
+      }
+    ],
+    "motion": [
+      {
+        "name": "ease-out",
+        "value": "cubic-bezier(.23,1,.32,1)",
+        "purpose": "Default for every UI transition: press, thumb slide, card lift."
+      },
+      {
+        "name": "ease-overshoot",
+        "value": "cubic-bezier(.34,1.4,.64,1)",
+        "purpose": "Evaluation bars filling (520ms)."
+      },
+      {
+        "name": "press",
+        "value": "160ms, scale(.97)",
+        "purpose": "Active state on buttons, chips, cards and the email pill."
+      },
+      {
+        "name": "colour",
+        "value": "200-220ms ease",
+        "purpose": "Colour, background and border changes."
+      },
+      {
+        "name": "segment-thumb",
+        "value": "320ms ease-out",
+        "purpose": "Segmented control thumb slide."
+      },
+      {
+        "name": "nav-indicator",
+        "value": "420ms ease-out",
+        "purpose": "Nav indicator slide and fan card lift."
+      },
+      {
+        "name": "view-in",
+        "value": "300ms ease-out from opacity 0, blur(6px), translateY(6px)",
+        "purpose": "Tab panel entrance; plain fade under reduced motion."
+      },
+      {
+        "name": "intro",
+        "value": "GSAP timeline, expo.out, delay .25s: nav at .6s, tagline at .9s, underline draw at 1.4s (power2.inOut), fan cards at 1.25s with .07s stagger",
+        "purpose": "One authored load."
+      },
+      {
+        "name": "scene-intro",
+        "value": "tree grow 3.2s power2.inOut; wordmark 1.8s from .9s; fireflies 2.4s from 1.6s; story objects back.out(1.7) at 2.3s",
+        "purpose": "WebGL night arrival."
+      },
+      {
+        "name": "data-reveal",
+        "value": "back.out(1.6) 1.1s with .12s stagger (Elo dots); back.out(2) .5s with .0045s stagger (hours grid)",
+        "purpose": "Overshoot-then-settle reveals, once on scroll."
+      },
+      {
+        "name": "disc-drop",
+        "value": "bounce.out, .18s + .05s per row",
+        "purpose": "Connect 4 counter drop."
+      },
+      {
+        "name": "camera-path",
+        "value": "5 keys on a centripetal Catmull-Rom; smoothstep per section; damping 1-exp(-dt*4.2); dawn 0, 0, .05, .35, 1.0",
+        "purpose": "Scroll flight from hero through the canopy to the water at dawn."
+      },
+      {
+        "name": "dim-veil",
+        "value": "opacity 0 to .5 by Work, held, easing to .3 at dawn",
+        "purpose": "Pushes the scene back under reading sections."
+      },
+      {
+        "name": "reduced-motion",
+        "value": "no intro, flight, parallax or bob; scene is a still at key 0; smooth scroll off",
+        "purpose": "prefers-reduced-motion."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "fan-scale",
+        "value": "1100px"
+      },
+      {
+        "name": "plates-stack",
+        "value": "980px"
+      },
+      {
+        "name": "hero-about-stack",
+        "value": "900px"
+      },
+      {
+        "name": "nav-emblem",
+        "value": "820px"
+      },
+      {
+        "name": "xp-stack",
+        "value": "760px"
+      },
+      {
+        "name": "hours-20col",
+        "value": "700px"
+      },
+      {
+        "name": "nav-pill-only",
+        "value": "640px"
+      },
+      {
+        "name": "compact",
+        "value": "560px"
+      }
+    ],
+    "webgl": {
+      "toneMapping": "NeutralToneMapping, exposure 1.0, sRGB output",
+      "bloom": "UnrealBloomPass at half resolution: strength .62, radius .4, threshold .9 (small or coarse pointer: .42, .4, .96); dropped with lowfx when frame EMA exceeds 24ms",
+      "sky": {
+        "uZenith": "#01030b",
+        "uMid": "#081d4e",
+        "uHorizon": "#164a86",
+        "uGold": "#ffae42",
+        "uEmber": "#ff6417"
+      },
+      "canopy": [
+        "#3f7dff",
+        "#8cc0ff",
+        "#eaf3ff",
+        "#59d6ff",
+        "#ffb347"
+      ],
+      "lights": {
+        "hemisphere": "#5d86ff over #0a0d18, 0.9",
+        "sun": "#ffb060, 2.8",
+        "fill": "#9cc0ff, 0.9",
+        "key": "#fff0d8, 1.7"
+      },
+      "particles": "canopy 16000 points (8000 on small or coarse screens)",
+      "contactKeys": "RoundedBox bevel .19, clearcoat 1; bodies #11182f, #1f46bf, #efe9dc; key light #fff0dc 1.6, rim #ffb347 1.4; RoomEnvironment; NeutralToneMapping"
+    },
+    "print": "One-column resume: ink #111/#333/#555, rules #ccc, serif 22pt/14pt/11.5pt, body 9.5-10pt, link URLs appended; sky, canvas, nav, media, controls and contact hidden."
+  },
+  "components": [
+    {
+      "name": "Ink Button",
+      "kind": "button",
+      "refersTo": "button-ink",
+      "description": "Primary pill: warm-white ink on night, for the one main call to action.",
+      "html": "<div class=\"ds-stage\"><a class=\"ds-btn ds-btn--ink\" href=\"#\">Let's talk</a></div>",
+      "css": ":host{--night-0:#040814;--night-1:#071029;--night-2:#0c1a3d;--ink:#f4efe4;--ink-2:#c6cbe0;--ink-3:#9aa4c4;--blue:#4f8cff;--blue-2:#8fb8ff;--blue-3:#cfe0ff;--gold:#ffb347;--gold-ink:#ffd08a;--glass:rgba(8,16,42,.62);--glass-strong:rgba(6,13,34,.8);--line:rgba(255,255,255,.12);--line-2:rgba(255,255,255,.2);--font-display:\"Noto Serif Display\",Georgia,serif;--font-body:Karla,\"Segoe UI\",sans-serif;--ease-out:cubic-bezier(.23,1,.32,1)} .ds-stage{background:var(--night-0);padding:32px}.ds-btn{display:inline-flex;align-items:center;gap:10px;border-radius:999px;padding:12px 20px;font:500 .95rem/1 var(--font-body);text-decoration:none;cursor:pointer;border:1px solid transparent;transition:transform 160ms var(--ease-out),background-color 200ms ease,border-color 200ms ease}.ds-btn:active{transform:scale(.97)}.ds-btn--ink{background:var(--ink);color:var(--night-0);box-shadow:0 10px 24px -12px rgba(0,0,0,.9),inset 0 1px 0 rgba(255,255,255,.7)}.ds-btn--ink:hover{background:#fff} :focus-visible{outline:2px solid var(--gold);outline-offset:3px}"
+    },
+    {
+      "name": "Ghost Button",
+      "kind": "button",
+      "refersTo": "button-ghost",
+      "description": "Secondary pill with a hairline border and a stroked icon, for tool actions.",
+      "html": "<div class=\"ds-stage\"><button class=\"ds-btn ds-btn--ghost\" type=\"button\"><svg viewBox=\"0 0 24 24\" width=\"18\" height=\"18\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.7\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M9 14 4 9l5-5\"/><path d=\"M4 9h10.5a5.5 5.5 0 0 1 0 11H11\"/></svg>Undo</button></div>",
+      "css": ":host{--night-0:#040814;--night-1:#071029;--night-2:#0c1a3d;--ink:#f4efe4;--ink-2:#c6cbe0;--ink-3:#9aa4c4;--blue:#4f8cff;--blue-2:#8fb8ff;--blue-3:#cfe0ff;--gold:#ffb347;--gold-ink:#ffd08a;--glass:rgba(8,16,42,.62);--glass-strong:rgba(6,13,34,.8);--line:rgba(255,255,255,.12);--line-2:rgba(255,255,255,.2);--font-display:\"Noto Serif Display\",Georgia,serif;--font-body:Karla,\"Segoe UI\",sans-serif;--ease-out:cubic-bezier(.23,1,.32,1)} .ds-stage{background:var(--night-0);padding:32px}.ds-btn{display:inline-flex;align-items:center;gap:10px;border-radius:999px;padding:12px 20px;font:500 .95rem/1 var(--font-body);text-decoration:none;cursor:pointer;border:1px solid transparent;transition:transform 160ms var(--ease-out),background-color 200ms ease,border-color 200ms ease}.ds-btn:active{transform:scale(.97)}.ds-btn--ghost{background:rgba(255,255,255,.04);border-color:var(--line-2);color:var(--ink)}.ds-btn--ghost:hover{background:rgba(255,255,255,.09);border-color:rgba(255,255,255,.32)} :focus-visible{outline:2px solid var(--gold);outline-offset:3px}"
+    },
+    {
+      "name": "Glass Nav Pill",
+      "kind": "nav",
+      "refersTo": "nav-pill",
+      "description": "Centred frosted pill nav with a gold tree emblem and an ink indicator on the current section.",
+      "html": "<div class=\"ds-stage\"><nav class=\"ds-nav\"><a href=\"#\" class=\"is-on\">Work</a><a href=\"#\">About</a><span class=\"ds-emb\"><svg viewBox=\"0 0 24 24\" width=\"22\" height=\"22\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.7\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M2.5 20.5h19\"/><path d=\"M12 20.5v-7.5m0 2.2-3.6-3.2m3.6 1.4 4-3.6\"/><path d=\"M3.5 10.6C5 6.6 8.2 4.4 12 4.4s7 2.2 8.5 6.2c-2.2 1-5.2 1.5-8.5 1.5s-6.3-.5-8.5-1.5Z\"/></svg></span><a href=\"#\">Experience</a><a href=\"#\">Contact</a></nav></div>",
+      "css": ":host{--night-0:#040814;--night-1:#071029;--night-2:#0c1a3d;--ink:#f4efe4;--ink-2:#c6cbe0;--ink-3:#9aa4c4;--blue:#4f8cff;--blue-2:#8fb8ff;--blue-3:#cfe0ff;--gold:#ffb347;--gold-ink:#ffd08a;--glass:rgba(8,16,42,.62);--glass-strong:rgba(6,13,34,.8);--line:rgba(255,255,255,.12);--line-2:rgba(255,255,255,.2);--font-display:\"Noto Serif Display\",Georgia,serif;--font-body:Karla,\"Segoe UI\",sans-serif;--ease-out:cubic-bezier(.23,1,.32,1)} .ds-stage{background:linear-gradient(180deg,#02050f,#061433 60%,#1b2c66);padding:32px}.ds-nav{display:inline-flex;align-items:center;gap:2px;padding:5px;border-radius:999px;background:rgba(6,13,34,.58);border:1px solid var(--line);backdrop-filter:blur(16px) saturate(140%);box-shadow:0 10px 22px -14px rgba(0,0,0,.85),inset 0 1px 0 rgba(255,255,255,.07)}.ds-nav a{padding:9px 16px;border-radius:999px;font:500 .875rem/1 var(--font-body);color:var(--ink-2);text-decoration:none;transition:color 220ms ease,background-color 420ms var(--ease-out)}.ds-nav a:not(.is-on):hover{color:var(--ink)}.ds-nav a.is-on{background:var(--ink);color:var(--night-0)}.ds-emb{display:grid;place-items:center;width:38px;height:30px;color:var(--gold)} :focus-visible{outline:2px solid var(--gold);outline-offset:3px}"
+    },
+    {
+      "name": "Segmented Control",
+      "kind": "custom",
+      "refersTo": "segmented",
+      "description": "Plate view switcher: dark pill track with a sliding ink thumb.",
+      "html": "<div class=\"ds-stage\"><div class=\"ds-seg\" role=\"tablist\"><button role=\"tab\" aria-selected=\"true\">Play</button><button role=\"tab\" aria-selected=\"false\">How it thinks</button></div></div>",
+      "css": ":host{--night-0:#040814;--night-1:#071029;--night-2:#0c1a3d;--ink:#f4efe4;--ink-2:#c6cbe0;--ink-3:#9aa4c4;--blue:#4f8cff;--blue-2:#8fb8ff;--blue-3:#cfe0ff;--gold:#ffb347;--gold-ink:#ffd08a;--glass:rgba(8,16,42,.62);--glass-strong:rgba(6,13,34,.8);--line:rgba(255,255,255,.12);--line-2:rgba(255,255,255,.2);--font-display:\"Noto Serif Display\",Georgia,serif;--font-body:Karla,\"Segoe UI\",sans-serif;--ease-out:cubic-bezier(.23,1,.32,1)} .ds-stage{background:var(--night-1);padding:32px}.ds-seg{display:inline-flex;padding:4px;border-radius:999px;background:rgba(4,8,22,.75);border:1px solid var(--line);box-shadow:inset 0 1px 0 rgba(255,255,255,.05)}.ds-seg button{border:0;background:none;padding:8px 16px;border-radius:999px;font:500 .86rem/1 var(--font-body);color:var(--ink-2);cursor:pointer;transition:color 220ms ease,background-color 320ms var(--ease-out)}.ds-seg button[aria-selected=false]:hover{color:var(--ink)}.ds-seg button[aria-selected=true]{background:var(--ink);color:var(--night-0);box-shadow:0 6px 16px -6px rgba(0,0,0,.7),inset 0 1px 0 #fff} :focus-visible{outline:2px solid var(--gold);outline-offset:3px}"
+    },
+    {
+      "name": "Chip and Tag",
+      "kind": "chip",
+      "refersTo": "chip",
+      "description": "Selectable pill whose pressed state takes the gold light, beside a static tag.",
+      "html": "<div class=\"ds-stage\"><button class=\"ds-chip\" aria-pressed=\"true\">Double threat</button><button class=\"ds-chip\" aria-pressed=\"false\">Stacked threats</button><span class=\"ds-tag\">Astro</span></div>",
+      "css": ":host{--night-0:#040814;--night-1:#071029;--night-2:#0c1a3d;--ink:#f4efe4;--ink-2:#c6cbe0;--ink-3:#9aa4c4;--blue:#4f8cff;--blue-2:#8fb8ff;--blue-3:#cfe0ff;--gold:#ffb347;--gold-ink:#ffd08a;--glass:rgba(8,16,42,.62);--glass-strong:rgba(6,13,34,.8);--line:rgba(255,255,255,.12);--line-2:rgba(255,255,255,.2);--font-display:\"Noto Serif Display\",Georgia,serif;--font-body:Karla,\"Segoe UI\",sans-serif;--ease-out:cubic-bezier(.23,1,.32,1)} .ds-stage{background:var(--night-1);padding:32px;display:flex;gap:6px;align-items:center}.ds-chip{border:1px solid var(--line-2);background:rgba(255,255,255,.03);color:var(--ink-2);border-radius:999px;padding:7px 13px;font:500 .8rem/1 var(--font-body);cursor:pointer;transition:background-color 200ms ease,color 200ms ease,border-color 200ms ease,transform 160ms var(--ease-out)}.ds-chip:active{transform:scale(.97)}.ds-chip[aria-pressed=true]{background:rgba(255,179,71,.14);border-color:rgba(255,179,71,.6);color:var(--gold-ink)}.ds-chip[aria-pressed=false]:hover{color:var(--ink);border-color:rgba(255,255,255,.34)}.ds-tag{font:400 .84rem/1.2 var(--font-body);padding:6px 12px;border-radius:999px;border:1px solid var(--line-2);color:var(--ink-2);background:rgba(255,255,255,.03)} :focus-visible{outline:2px solid var(--gold);outline-offset:3px}"
+    },
+    {
+      "name": "Project Plate",
+      "kind": "card",
+      "refersTo": "plate",
+      "description": "Numbered night-glass slab with serif counter, title, lede and a hairline facts strip.",
+      "html": "<div class=\"ds-stage\"><article class=\"ds-plate\"><p class=\"ds-count\">01<small>/ 05</small></p><h3 class=\"ds-title\">Sandford International School website</h3><p class=\"ds-lede\">I've been building my school's website on my own since Year 11.</p><dl class=\"ds-facts\"><div><dt>Role</dt><dd>Solo designer and developer</dd></div><div><dt>Time</dt><dd>About 200 hours</dd></div></dl></article></div>",
+      "css": ":host{--night-0:#040814;--night-1:#071029;--night-2:#0c1a3d;--ink:#f4efe4;--ink-2:#c6cbe0;--ink-3:#9aa4c4;--blue:#4f8cff;--blue-2:#8fb8ff;--blue-3:#cfe0ff;--gold:#ffb347;--gold-ink:#ffd08a;--glass:rgba(8,16,42,.62);--glass-strong:rgba(6,13,34,.8);--line:rgba(255,255,255,.12);--line-2:rgba(255,255,255,.2);--font-display:\"Noto Serif Display\",Georgia,serif;--font-body:Karla,\"Segoe UI\",sans-serif;--ease-out:cubic-bezier(.23,1,.32,1)} .ds-stage{background:linear-gradient(180deg,#061433,#1b2c66);padding:32px}.ds-plate{max-width:30rem;padding:26px;border-radius:30px;background:linear-gradient(90deg,rgba(8,16,42,.44),rgba(6,13,34,.74));border:1px solid var(--line);backdrop-filter:blur(24px) saturate(160%);box-shadow:inset 0 1px 0 rgba(255,255,255,.06);color:var(--ink);font-family:var(--font-body)}.ds-count{margin:0 0 22px;font:300 3.2rem/1 var(--font-display);letter-spacing:-.02em}.ds-count small{font-size:1.15rem;color:var(--ink-3);margin-left:.3em;letter-spacing:0}.ds-title{margin:0 0 16px;font:400 1.9rem/1.12 var(--font-display);letter-spacing:-.012em}.ds-lede{margin:0;font-size:1.1rem;line-height:1.55}.ds-facts{display:grid;grid-template-columns:1fr 1fr;gap:14px 18px;margin:22px 0 0;padding:16px 0;border-block:1px solid var(--line)}.ds-facts dt{font-size:.78rem;color:var(--ink-3)}.ds-facts dd{margin:0;font-size:.92rem}"
+    },
+    {
+      "name": "Fan Card",
+      "kind": "card",
+      "refersTo": "fan-card",
+      "description": "Tilted glass project card from the hero fan; lifts, straightens and warms on hover.",
+      "html": "<div class=\"ds-stage\"><a class=\"ds-fan\" href=\"#\"><span class=\"ds-thumb\"></span><span class=\"ds-lab\">Canteen forecast</span></a></div>",
+      "css": ":host{--night-0:#040814;--night-1:#071029;--night-2:#0c1a3d;--ink:#f4efe4;--ink-2:#c6cbe0;--ink-3:#9aa4c4;--blue:#4f8cff;--blue-2:#8fb8ff;--blue-3:#cfe0ff;--gold:#ffb347;--gold-ink:#ffd08a;--glass:rgba(8,16,42,.62);--glass-strong:rgba(6,13,34,.8);--line:rgba(255,255,255,.12);--line-2:rgba(255,255,255,.2);--font-display:\"Noto Serif Display\",Georgia,serif;--font-body:Karla,\"Segoe UI\",sans-serif;--ease-out:cubic-bezier(.23,1,.32,1)} .ds-stage{background:var(--night-1);padding:48px}.ds-fan{display:inline-block;width:140px;padding:7px 7px 10px;border-radius:18px;background:var(--glass-strong);border:1px solid var(--line-2);color:var(--ink);text-decoration:none;transform:rotate(3.5deg);transition:transform 420ms var(--ease-out),border-color 200ms ease;box-shadow:0 14px 22px -12px rgba(0,0,0,.85),inset 0 1px 0 rgba(255,255,255,.08)}.ds-fan:hover{transform:translateY(-22px) rotate(1.4deg);border-color:rgba(255,208,138,.55)}.ds-fan:active{transform:rotate(3.5deg) scale(.97)}.ds-thumb{display:block;aspect-ratio:1/1.08;border-radius:12px;background:#081230}.ds-lab{display:block;margin-top:9px;text-align:center;font:400 .86rem/1.15 var(--font-display)} :focus-visible{outline:2px solid var(--gold);outline-offset:3px}"
+    },
+    {
+      "name": "Copy-Email Pill",
+      "kind": "button",
+      "refersTo": "email-pill",
+      "description": "Glass pill holding the address with a round ink icon well; copies on click.",
+      "html": "<div class=\"ds-stage\"><button class=\"ds-email\" type=\"button\"><span>ftiraees@gmail.com</span><span class=\"ds-ic\"><svg viewBox=\"0 0 24 24\" width=\"18\" height=\"18\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.7\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><rect x=\"8\" y=\"8\" width=\"12\" height=\"12\" rx=\"2\"/><path d=\"M16 8V5a1 1 0 0 0-1-1H5a1 1 0 0 0-1 1v10a1 1 0 0 0 1 1h3\"/></svg></span></button></div>",
+      "css": ":host{--night-0:#040814;--night-1:#071029;--night-2:#0c1a3d;--ink:#f4efe4;--ink-2:#c6cbe0;--ink-3:#9aa4c4;--blue:#4f8cff;--blue-2:#8fb8ff;--blue-3:#cfe0ff;--gold:#ffb347;--gold-ink:#ffd08a;--glass:rgba(8,16,42,.62);--glass-strong:rgba(6,13,34,.8);--line:rgba(255,255,255,.12);--line-2:rgba(255,255,255,.2);--font-display:\"Noto Serif Display\",Georgia,serif;--font-body:Karla,\"Segoe UI\",sans-serif;--ease-out:cubic-bezier(.23,1,.32,1)} .ds-stage{background:var(--night-1);padding:32px}.ds-email{display:inline-grid;grid-template-columns:1fr auto;align-items:center;gap:14px;padding:14px 16px 14px 26px;border-radius:999px;border:1px solid rgba(255,255,255,.22);background:rgba(4,8,22,.78);backdrop-filter:blur(14px);cursor:pointer;font:500 1.2rem/1 var(--font-body);color:var(--ink);box-shadow:0 14px 24px -14px rgba(0,0,0,.9),inset 0 1px 0 rgba(255,255,255,.08);transition:transform 160ms var(--ease-out),border-color 200ms ease}.ds-email:hover{border-color:rgba(255,208,138,.6)}.ds-email:active{transform:scale(.97)}.ds-ic{display:grid;place-items:center;width:40px;height:40px;border-radius:50%;background:var(--ink);color:var(--night-0)} :focus-visible{outline:2px solid var(--gold);outline-offset:3px}"
+    },
+    {
+      "name": "Contact Key (flat fallback)",
+      "kind": "custom",
+      "refersTo": "contact-key",
+      "description": "The CSS tile beneath each 3D WebGL key; it is the real link and the no-WebGL fallback.",
+      "html": "<div class=\"ds-stage\"><a class=\"ds-tile\" href=\"#\"><span class=\"ds-key\"><svg viewBox=\"0 0 24 24\" width=\"32\" height=\"32\" fill=\"#f4efe4\"><path d=\"M2.5 5h19v14h-19zM4.6 7l7.4 5.6L19.4 7z\"/></svg></span><span>Email</span></a></div>",
+      "css": ":host{--night-0:#040814;--night-1:#071029;--night-2:#0c1a3d;--ink:#f4efe4;--ink-2:#c6cbe0;--ink-3:#9aa4c4;--blue:#4f8cff;--blue-2:#8fb8ff;--blue-3:#cfe0ff;--gold:#ffb347;--gold-ink:#ffd08a;--glass:rgba(8,16,42,.62);--glass-strong:rgba(6,13,34,.8);--line:rgba(255,255,255,.12);--line-2:rgba(255,255,255,.2);--font-display:\"Noto Serif Display\",Georgia,serif;--font-body:Karla,\"Segoe UI\",sans-serif;--ease-out:cubic-bezier(.23,1,.32,1)} .ds-stage{background:var(--night-1);padding:32px}.ds-tile{display:inline-grid;justify-items:center;gap:10px;width:118px;color:var(--ink);text-decoration:none;font:500 .9rem/1.2 var(--font-body)}.ds-key{display:grid;place-items:center;width:76px;height:76px;border-radius:22px;background:linear-gradient(160deg,#1b3478,#0b1740 70%);border:1px solid rgba(143,184,255,.28);box-shadow:0 14px 22px -12px rgba(0,0,0,.95),inset 0 1px 0 rgba(255,255,255,.22),inset 0 -6px 12px rgba(0,0,0,.35);transition:transform 260ms var(--ease-out),box-shadow 260ms var(--ease-out)}.ds-tile:hover .ds-key{transform:translateY(-6px) rotate(-3deg);box-shadow:0 18px 24px -12px rgba(0,0,0,.95),inset 0 1px 0 rgba(255,255,255,.3),0 0 0 1px rgba(255,179,71,.35)}.ds-tile:active .ds-key{transform:scale(.95)} :focus-visible{outline:2px solid var(--gold);outline-offset:3px}"
+    }
+  ],
+  "narrative": {
+    "northStar": "One Night Under One Tree",
+    "overview": "The whole system is a single night scene. A full-bleed WebGL sky runs from near-black zenith to a lit blue horizon. A particle tree glows electric blue above a gold horizon, and the camera drifts through it as the reader scrolls until dawn breaks at the contact close. Everything the reader touches sits on that night as frosted glass: plates, panels, pills and cards, edged with one-pixel white hairlines and lit by a warm-white ink. Nothing is printed on a page. Each surface floats in the sky.\n\nThere are exactly two lights, and each has one job. Blue is the cool light of the canopy, used for data, links and anything that grows. Gold is the warm horizon, used for the one answer that matters: the best move, the forecast, the focus ring, the highlighted row. Type follows the same split. A light, high-contrast serif carries the voice: names, headings and plate numbers. Karla does the work underneath. The page is spacious and cinematic at the top and denser inside the plates, where the reader operates real things such as tabs, a playable board and charts.\n\nMotion is damped and physical. Numbers and marks overshoot slightly, then settle. The camera eases toward the scroll position and never jumps to it. With reduced motion on, the night holds still at its first key, and all content stays readable without WebGL.",
+    "keyCharacteristics": [
+      "A fixed WebGL night as the only background, with a CSS gradient as the painted fallback",
+      "Two lights only: blue canopy (cool, data) and gold horizon (warm, the answer)",
+      "Frosted night-glass surfaces with 1px white hairlines and an inset top highlight",
+      "Light serif display (300) for voice and counters, Karla for everything else",
+      "Pill controls throughout, with an ink \"thumb\" that slides to the active option",
+      "Damped, overshoot-then-settle motion; a scroll-driven camera that ends at dawn"
+    ],
+    "rules": [
+      {
+        "name": "The Two Lights Rule",
+        "body": "Blue is the cool light and gold is the warm light. Any new accent must be one of these two. Gold marks the single answer in a view (best move, forecast, focus), never decoration.",
+        "section": "colors"
+      },
+      {
+        "name": "The Blue-to-Gold Sky Rule",
+        "body": "The sky's gradient runs from ink to blue to gold to ember. It never passes through violet or magenta.",
+        "section": "colors"
+      },
+      {
+        "name": "The Light Voice Rule",
+        "body": "Display type is weight 300 (400 for titles), never bold and never uppercase. Hierarchy comes from size and the serif/sans switch, not from weight.",
+        "section": "typography"
+      },
+      {
+        "name": "The Sentence-Case Rule",
+        "body": "No uppercase tracking labels, kickers or eyebrows sit above headings. A heading stands alone, and context goes in a sentence below it.",
+        "section": "typography"
+      },
+      {
+        "name": "The Shade-Not-Outline Rule",
+        "body": "Shadows always use a negative spread and pure black at 0.85–0.95 alpha. A shadow never shows as a hard offset copy of the shape.",
+        "section": "elevation"
+      },
+      {
+        "name": "The Glass Fallback Rule",
+        "body": "Every blurred surface has a solid fallback. Under `lowfx` (slow frames) or `prefers-reduced-transparency`, the blur drops and the fill becomes opaque night (#081333 or rgba(6,13,34,.9)).",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "Do set every new surface as night glass: a `glass` or `glass-strong` fill, a 1px `line` hairline, an inset top highlight and a backdrop blur, with an opaque fallback for `lowfx` and reduced transparency.",
+      "Do make every control a pill, and show selection with a sliding warm-white ink thumb and a night-coloured label.",
+      "Do keep blue for data and links and gold for the one answer in each view.",
+      "Do set headings in Noto Serif Display 300 with negative tracking, and everything else in Karla.",
+      "Do number project plates with one consistent \"01 / 05\" serif counter.",
+      "Do let moving values overshoot and settle (back.out, cubic-bezier(.34,1.4,.64,1)), and give every animation a reduced-motion state.",
+      "Do keep content readable with WebGL off. The CSS sky gradient and flat contact tiles are the fallback."
+    ],
+    "donts": [
+      "Don't add a third light colour. Violet, magenta and green accents break the two-light night. The canopy's cyan tints (#59d6ff, #7fe0ff) are part of the blue light, not a separate accent.",
+      "Don't put uppercase eyebrows or kickers above headings.",
+      "Don't use hard offset shadows or visible drop outlines. Shadows are soft shade with negative spread.",
+      "Don't set display type bold or in all caps (the canvas wordmark is the single uppercase word).",
+      "Don't put light or white page sections into the night. Print is the only light mode.",
+      "Don't snap state changes. Pills, thumbs and cards move on `cubic-bezier(.23,1,.32,1)`."
+    ]
+  }
+}

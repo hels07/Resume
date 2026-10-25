@@ -1,663 +1,756 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-10-24T11:26:38+00:00",
+  "generatedAt": "2026-10-25T17:56:54+00:00",
   "title": "Design System: Raees Feysal Temam",
   "extensions": {
     "colorMeta": {
-      "night-0": {
-        "role": "neutral",
-        "displayName": "Night Zero",
-        "canonical": "#040814",
+      "plum": {
+        "role": "primary",
+        "displayName": "Mansion Plum",
+        "canonical": "oklch(31.0% 0.103 302.7)",
         "tonalRamp": [
-          "#0d1940",
-          "#162c6e",
-          "#1f3f9d",
-          "#2952cc",
-          "#5174dc",
-          "#7f99e6",
-          "#b2c2f0",
-          "#eaeefb"
+          "#0f051c",
+          "#2d1944",
+          "#4d326e",
+          "#6d5191",
+          "#8e73b5",
+          "#b295da",
+          "#d3bdf5",
+          "#f5e7ff"
         ]
       },
-      "night-1": {
-        "role": "neutral",
-        "displayName": "Night One",
-        "canonical": "#071029",
+      "plum-2": {
+        "role": "primary",
+        "displayName": "Deep Plum",
+        "canonical": "oklch(25.2% 0.078 303.2)",
         "tonalRamp": [
-          "#0b1941",
-          "#132c71",
-          "#1c3fa1",
-          "#2452d1",
-          "#4c74e1",
-          "#7c99e9",
-          "#b1c2f2",
-          "#e9eefb"
+          "#0e0718",
+          "#2b1d3d",
+          "#4b3764",
+          "#6a5686",
+          "#8c77a9",
+          "#af99ce",
+          "#d1c0ea",
+          "#f3e9ff"
         ]
       },
-      "night-2": {
-        "role": "neutral",
-        "displayName": "Night Two",
-        "canonical": "#0c1a3d",
+      "plum-3": {
+        "role": "primary",
+        "displayName": "Deeper Plum",
+        "canonical": "oklch(20.5% 0.051 306.5)",
         "tonalRamp": [
-          "#0d1b40",
-          "#162f6f",
-          "#1f439e",
-          "#2857cd",
-          "#5078dd",
-          "#7f9ce6",
-          "#b2c4f0",
-          "#eaeffb"
+          "#0e0813",
+          "#2a2034",
+          "#493b57",
+          "#685a78",
+          "#8a7b9b",
+          "#ad9dbf",
+          "#cfc3de",
+          "#f2ebfc"
         ]
       },
-      "night-3": {
+      "plum-4": {
         "role": "neutral",
-        "displayName": "Night Three",
-        "canonical": "#14275c",
+        "displayName": "Midnight Plum",
+        "canonical": "oklch(16.6% 0.038 303.0)",
         "tonalRamp": [
-          "#0e1b3f",
-          "#182e6d",
-          "#22429b",
-          "#2c55c9",
-          "#5377da",
-          "#819be4",
-          "#b4c3ef",
-          "#eaeefa"
+          "#0d0912",
+          "#282231",
+          "#463d53",
+          "#655c73",
+          "#877d96",
+          "#aaa0b9",
+          "#cdc5d9",
+          "#f1ecf9"
+        ]
+      },
+      "lavender": {
+        "role": "secondary",
+        "displayName": "Moonlit Lavender",
+        "canonical": "oklch(76.2% 0.084 299.4)",
+        "tonalRamp": [
+          "#0e071a",
+          "#2a1d40",
+          "#493668",
+          "#68568a",
+          "#8977ae",
+          "#ac99d3",
+          "#cfc0ee",
+          "#f2e9ff"
+        ]
+      },
+      "blood": {
+        "role": "tertiary",
+        "displayName": "Blood",
+        "canonical": "oklch(53.1% 0.186 18.8)",
+        "tonalRamp": [
+          "#260000",
+          "#570005",
+          "#8b0015",
+          "#b31634",
+          "#db4554",
+          "#ff6b76",
+          "#ffa1a4",
+          "#ffd7d7"
+        ]
+      },
+      "blood-light": {
+        "role": "tertiary",
+        "displayName": "Blood Light",
+        "canonical": "oklch(78.7% 0.096 11.3)",
+        "tonalRamp": [
+          "#1a0307",
+          "#42121c",
+          "#6b2835",
+          "#8f4853",
+          "#b46974",
+          "#da8c96",
+          "#f5b6bd",
+          "#ffe2e7"
+        ]
+      },
+      "blood-ink": {
+        "role": "tertiary",
+        "displayName": "Blood Ink",
+        "canonical": "oklch(41.5% 0.153 20.2)",
+        "tonalRamp": [
+          "#220001",
+          "#50000a",
+          "#80001c",
+          "#a6313b",
+          "#ce565b",
+          "#f6797c",
+          "#ffaaa9",
+          "#ffdcda"
+        ]
+      },
+      "parchment": {
+        "role": "neutral",
+        "displayName": "Parchment",
+        "canonical": "oklch(91.6% 0.026 82.4)",
+        "tonalRamp": [
+          "#0e0b06",
+          "#2a241a",
+          "#494132",
+          "#696050",
+          "#8a8171",
+          "#ada493",
+          "#d0c8bb",
+          "#f3eee5"
+        ]
+      },
+      "frame": {
+        "role": "neutral",
+        "displayName": "Frame Tan",
+        "canonical": "oklch(75.3% 0.057 78.4)",
+        "tonalRamp": [
+          "#110a01",
+          "#312209",
+          "#533e1c",
+          "#735d3b",
+          "#957f5b",
+          "#b9a17d",
+          "#d9c6a9",
+          "#f9edda"
         ]
       },
       "ink": {
         "role": "neutral",
-        "displayName": "Warm-White Ink",
-        "canonical": "#f4efe4",
+        "displayName": "Ink",
+        "canonical": "oklch(20.3% 0.015 347.0)",
         "tonalRamp": [
-          "#362c16",
-          "#5e4d26",
-          "#866d37",
-          "#ae8e47",
-          "#c2a76a",
-          "#d3bf92",
-          "#e4d8be",
-          "#f8f4ed"
+          "#0e0a0c",
+          "#2a2326",
+          "#483f43",
+          "#685e63",
+          "#8a7f84",
+          "#ada1a7",
+          "#cfc6ca",
+          "#f2edef"
         ]
       },
       "ink-2": {
         "role": "neutral",
-        "displayName": "Mist",
-        "canonical": "#c6cbe0",
+        "displayName": "Ink 2",
+        "canonical": "oklch(35.5% 0.020 335.7)",
         "tonalRamp": [
-          "#1b1f32",
-          "#2f3656",
-          "#424d7a",
-          "#56649f",
-          "#7883b5",
-          "#9ca5c9",
-          "#c4c9df",
-          "#eef0f6"
+          "#0e0a0d",
+          "#2a2228",
+          "#493e46",
+          "#695d66",
+          "#8b7e87",
+          "#aea0aa",
+          "#d0c5cd",
+          "#f3ecf1"
         ]
       },
       "ink-3": {
         "role": "neutral",
-        "displayName": "Dusk",
-        "canonical": "#9aa4c4",
+        "displayName": "Ink 3",
+        "canonical": "oklch(47.9% 0.019 348.2)",
         "tonalRamp": [
-          "#1c2130",
-          "#313954",
-          "#465177",
-          "#5a6a9b",
-          "#7b88b2",
-          "#9ea8c7",
-          "#c5cbdd",
-          "#eff0f6"
+          "#0e0a0c",
+          "#2b2226",
+          "#4a3e44",
+          "#6a5d63",
+          "#8c7e84",
+          "#afa0a7",
+          "#d1c5cb",
+          "#f4ecef"
         ]
       },
-      "blue": {
-        "role": "primary",
-        "displayName": "Canopy Blue",
-        "canonical": "#4f8cff",
+      "moon": {
+        "role": "scene",
+        "displayName": "Moon",
+        "canonical": "oklch(86.2% 0.077 296.4)",
         "tonalRamp": [
-          "#001b4c",
-          "#002e85",
-          "#0041bd",
-          "#0055f5",
-          "#2e76ff",
-          "#669bff",
-          "#a3c3ff",
-          "#e5eeff"
+          "#0d0719",
+          "#281e3e",
+          "#463866",
+          "#655888",
+          "#8679ab",
+          "#a99bd0",
+          "#ccc2ec",
+          "#f0eaff"
         ]
       },
-      "blue-2": {
-        "role": "primary",
-        "displayName": "Pale Canopy",
-        "canonical": "#8fb8ff",
+      "blood-moon": {
+        "role": "scene",
+        "displayName": "Blood Moon",
+        "canonical": "oklch(65.3% 0.233 28.5)",
         "tonalRamp": [
-          "#001c4c",
-          "#003185",
-          "#0045bd",
-          "#005af5",
-          "#2e7aff",
-          "#669eff",
-          "#a3c5ff",
-          "#e5efff"
+          "#2b0000",
+          "#620000",
+          "#9a0000",
+          "#c40000",
+          "#ee231e",
+          "#ff5547",
+          "#ff9684",
+          "#ffd2c4"
         ]
       },
-      "blue-3": {
-        "role": "primary",
-        "displayName": "Moonlit Blue",
-        "canonical": "#cfe0ff",
+      "fog-violet": {
+        "role": "scene",
+        "displayName": "Violet Fog",
+        "canonical": "oklch(18.3% 0.052 297.0)",
         "tonalRamp": [
-          "#001b4c",
-          "#002f85",
-          "#0043bd",
-          "#0057f5",
-          "#2e78ff",
-          "#669cff",
-          "#a3c4ff",
-          "#e5efff"
+          "#0c0914",
+          "#272136",
+          "#453c5a",
+          "#645b7b",
+          "#857c9e",
+          "#a89fc2",
+          "#cbc4e1",
+          "#f0ebfe"
         ]
       },
-      "gold": {
-        "role": "secondary",
-        "displayName": "Horizon Gold",
-        "canonical": "#ffb347",
+      "candle": {
+        "role": "scene",
+        "displayName": "Candle Flame",
+        "canonical": "oklch(76.9% 0.156 53.8)",
         "tonalRamp": [
-          "#4c2d00",
-          "#854e00",
-          "#bd6f00",
-          "#f59000",
-          "#ffa92e",
-          "#ffc066",
-          "#ffd9a3",
-          "#fff4e5"
+          "#200000",
+          "#4d0400",
+          "#7b1900",
+          "#a13f00",
+          "#c76200",
+          "#ef8637",
+          "#ffb37c",
+          "#ffe2c0"
         ]
       },
-      "ember": {
-        "role": "secondary",
-        "displayName": "Ember",
-        "canonical": "#ff7a1f",
+      "old-gold": {
+        "role": "scene",
+        "displayName": "Old Gold",
+        "canonical": "oklch(63.3% 0.102 82.9)",
         "tonalRamp": [
-          "#4c1f00",
-          "#853600",
-          "#bd4d00",
-          "#f56300",
-          "#ff832e",
-          "#ffa466",
-          "#ffc8a3",
-          "#fff0e5"
+          "#150800",
+          "#372000",
+          "#5c3b00",
+          "#7d5b00",
+          "#a07c31",
+          "#c49f56",
+          "#e2c58e",
+          "#ffecca"
         ]
       },
-      "gold-ink": {
-        "role": "secondary",
-        "displayName": "Gold Ink",
-        "canonical": "#ffd08a",
+      "velvet": {
+        "role": "scene",
+        "displayName": "Crimson Velvet",
+        "canonical": "oklch(23.4% 0.086 15.3)",
         "tonalRamp": [
-          "#4c2e00",
-          "#854f00",
-          "#bd7100",
-          "#f59200",
-          "#ffab2e",
-          "#ffc266",
-          "#ffdaa3",
-          "#fff5e5"
+          "#190406",
+          "#3f151a",
+          "#682c33",
+          "#8b4c51",
+          "#b06d71",
+          "#d58f93",
+          "#f1b8bb",
+          "#ffe4e5"
         ]
       },
-      "disc-red": {
-        "role": "tertiary",
-        "displayName": "Disc Red",
-        "canonical": "#ff5b45",
+      "glass-amethyst": {
+        "role": "scene",
+        "displayName": "Amethyst Glass",
+        "canonical": "oklch(29.5% 0.128 302.2)",
         "tonalRamp": [
-          "#4c0900",
-          "#851000",
-          "#bd1600",
-          "#f51d00",
-          "#ff472e",
-          "#ff7866",
-          "#ffaea3",
-          "#ffe9e5"
+          "#110320",
+          "#2f144c",
+          "#502b79",
+          "#704c9d",
+          "#916ec2",
+          "#b491e8",
+          "#d5baff",
+          "#f6e5ff"
         ]
       },
-      "disc-yellow": {
-        "role": "tertiary",
-        "displayName": "Disc Yellow",
-        "canonical": "#ffc93d",
-        "tonalRamp": [
-          "#4c3700",
-          "#856000",
-          "#bd8800",
-          "#f5b100",
-          "#ffc52e",
-          "#ffd466",
-          "#ffe5a3",
-          "#fff8e5"
-        ]
-      },
-      "sky-zenith": {
+      "white": {
         "role": "neutral",
-        "displayName": "Sky Zenith (shader)",
-        "canonical": "#01030b",
-        "tonalRamp": [
-          "#061346",
-          "#0b217a",
-          "#102fad",
-          "#143de0",
-          "#3f62ee",
-          "#738cf2",
-          "#abbaf7",
-          "#e8ecfd"
-        ]
+        "displayName": "White"
       },
-      "sky-mid": {
+      "white-88": {
         "role": "neutral",
-        "displayName": "Sky Mid (shader)",
-        "canonical": "#081d4e",
-        "tonalRamp": [
-          "#071a45",
-          "#0c2d78",
-          "#1240ab",
-          "#1753de",
-          "#4174ec",
-          "#749af1",
-          "#acc2f6",
-          "#e8eefd"
-        ]
+        "displayName": "White 88"
       },
-      "sky-horizon": {
+      "white-72": {
         "role": "neutral",
-        "displayName": "Sky Horizon (shader)",
-        "canonical": "#164a86",
-        "tonalRamp": [
-          "#0b2442",
-          "#133f72",
-          "#1b5aa2",
-          "#2374d2",
-          "#4b91e2",
-          "#7cafe9",
-          "#b0cff2",
-          "#e9f2fb"
-        ]
+        "displayName": "White 72"
       },
-      "sky-gold": {
-        "role": "secondary",
-        "displayName": "Sky Gold (shader)",
-        "canonical": "#ffae42",
-        "tonalRamp": [
-          "#4c2c00",
-          "#854c00",
-          "#bd6c00",
-          "#f58c00",
-          "#ffa52e",
-          "#ffbd66",
-          "#ffd8a3",
-          "#fff4e5"
-        ]
-      },
-      "sky-ember": {
-        "role": "secondary",
-        "displayName": "Sky Ember (shader)",
-        "canonical": "#ff6417",
-        "tonalRamp": [
-          "#4c1900",
-          "#852c00",
-          "#bd3f00",
-          "#f55100",
-          "#ff732e",
-          "#ff9966",
-          "#ffc2a3",
-          "#ffeee5"
-        ]
-      },
-      "glass": {
+      "tile-glass": {
         "role": "neutral",
-        "displayName": "Night Glass",
-        "canonical": "rgba(8,16,42,.62)"
+        "displayName": "Violet Tile Glass"
       },
-      "glass-strong": {
+      "tile-line": {
         "role": "neutral",
-        "displayName": "Night Glass Strong",
-        "canonical": "rgba(6,13,34,.8)"
+        "displayName": "Tile Hairline"
       },
-      "line": {
+      "scrim": {
         "role": "neutral",
-        "displayName": "Hairline",
-        "canonical": "rgba(255,255,255,.12)"
+        "displayName": "Plum-Black Scrim"
       },
-      "line-2": {
-        "role": "neutral",
-        "displayName": "Hairline Strong",
-        "canonical": "rgba(255,255,255,.2)"
+      "void": {
+        "role": "scene",
+        "displayName": "Void"
+      },
+      "moonlight": {
+        "role": "scene",
+        "displayName": "Moonlight"
+      },
+      "blood-moonlight": {
+        "role": "scene",
+        "displayName": "Blood Moonlight"
+      },
+      "fog-blood": {
+        "role": "scene",
+        "displayName": "Blood Fog"
+      },
+      "shaft-violet": {
+        "role": "scene",
+        "displayName": "Clerestory Shaft"
+      },
+      "candle-pool": {
+        "role": "scene",
+        "displayName": "Candle Pool"
+      },
+      "marble-black": {
+        "role": "scene",
+        "displayName": "Nero Marquina"
+      },
+      "marble-vein": {
+        "role": "scene",
+        "displayName": "Marble Vein"
+      },
+      "iron": {
+        "role": "scene",
+        "displayName": "Wrought Iron"
+      },
+      "wax": {
+        "role": "scene",
+        "displayName": "Candle Wax"
+      },
+      "velvet-sheen": {
+        "role": "scene",
+        "displayName": "Velvet Sheen"
+      },
+      "glass-ruby": {
+        "role": "scene",
+        "displayName": "Ruby Glass"
+      },
+      "glass-sapphire": {
+        "role": "scene",
+        "displayName": "Sapphire Glass"
+      },
+      "lead": {
+        "role": "scene",
+        "displayName": "Lead Came"
       }
     },
     "typographyMeta": {
+      "wordmark": {
+        "displayName": "Wordmark",
+        "purpose": "Arched SVG wordmark: RAEES on an arc with a crossbar-less A, FEYSAL TEMAM spaced on a concentric arc above."
+      },
       "display": {
         "displayName": "Display",
-        "purpose": "The name only; drawn to a WebGL canvas texture as RAEES (0.035em tracking) behind the tree when WebGL is on."
+        "purpose": "The creed in the parchment statement band; contact headline at clamp(2.8rem, 7vw, 6.4rem)/0.94."
       },
       "headline": {
         "displayName": "Headline",
-        "purpose": "Section heads; the contact close and About quote are larger siblings."
+        "purpose": "White section heads over the scene with a double plum-black halo."
       },
-      "counter": {
-        "displayName": "Counter",
-        "purpose": "Plate numbers 01 / 05 and forecaster step numbers."
+      "numeral": {
+        "displayName": "Numeral",
+        "purpose": "01 to 05 on violet project tiles; lining figures."
       },
       "title": {
         "displayName": "Title",
-        "purpose": "Plate, panel and experience-org titles (weight 400)."
+        "purpose": "Plate titles on parchment."
       },
-      "body": {
-        "displayName": "Body",
-        "purpose": "Running text; supporting paragraphs in ink-2."
+      "title-sm": {
+        "displayName": "Title Sm",
+        "purpose": "About cards and the hours tile; experience orgs and the intro card run slightly smaller."
       },
       "lede": {
         "displayName": "Lede",
-        "purpose": "First paragraph of a plate, in full ink."
+        "purpose": "First paragraph of each plate, section-head intros, contact lede."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Base running copy in Rokkitt."
       },
       "label": {
         "displayName": "Label",
-        "purpose": "Nav links, buttons, tabs, chips."
+        "purpose": "Numbered nav links with a 65%-opacity 01/ prefix."
       },
-      "caption": {
-        "displayName": "Caption",
-        "purpose": "dt labels, captions, chart axes and meta, in ink-3."
+      "button": {
+        "displayName": "Button",
+        "purpose": "Uppercase button labels."
+      },
+      "data-label": {
+        "displayName": "Data Label",
+        "purpose": "dt terms in fact, IB and kit rows; never above a heading."
       }
     },
     "shadows": [
       {
-        "name": "glass-highlight",
-        "value": "inset 0 1px 0 rgba(255,255,255,.06)",
-        "purpose": "Top-edge light on plates, panels and the experience list."
+        "name": "paper-lift",
+        "value": "0 14px 22px -12px rgba(12,6,20,.7)",
+        "purpose": "Fan cards and newsletter covers lifted off the scene."
       },
       {
-        "name": "lifted-control",
-        "value": "0 10px 24px -12px rgba(0,0,0,.9), inset 0 1px 0 rgba(255,255,255,.7)",
-        "purpose": "Ink button."
+        "name": "paper-lift-tile",
+        "value": "0 16px 26px -16px rgba(12,6,20,.75)",
+        "purpose": "Contact tiles at rest."
       },
       {
-        "name": "floating-card",
-        "value": "0 14px 22px -12px rgba(0,0,0,.85), inset 0 1px 0 rgba(255,255,255,.08)",
-        "purpose": "Fan cards, email pill, contact keys."
+        "name": "paper-lift-pill",
+        "value": "0 14px 24px -14px rgba(12,6,20,.8)",
+        "purpose": "Email pill."
       },
       {
-        "name": "framed-media",
-        "value": "0 16px 24px -14px rgba(0,0,0,.9)",
-        "purpose": "Browser frame and phone mock."
+        "name": "paper-lift-raised",
+        "value": "0 22px 26px -14px rgba(12,6,20,.8)",
+        "purpose": "Fan card hover."
       },
       {
-        "name": "nav-glass",
-        "value": "0 10px 22px -14px rgba(0,0,0,.85), inset 0 1px 0 rgba(255,255,255,.07)",
-        "purpose": "Nav pill."
+        "name": "paper-lift-raised-tile",
+        "value": "0 24px 30px -16px rgba(12,6,20,.85)",
+        "purpose": "Contact tile hover."
       },
       {
-        "name": "sky-text",
-        "value": "0 2px 30px rgba(4,8,20,.7)",
-        "purpose": "text-shadow for headings over the open night."
+        "name": "button-drop",
+        "value": "0 10px 22px -14px rgba(0,0,0,.6)",
+        "purpose": "Parchment button."
+      },
+      {
+        "name": "tooltip-drop",
+        "value": "0 12px 24px -12px rgba(12,6,20,.6)",
+        "purpose": "3D prop tooltip."
+      },
+      {
+        "name": "device-drop",
+        "value": "0 16px 24px -14px rgba(0,0,0,.8)",
+        "purpose": "Browser and phone frames on violet tiles."
+      },
+      {
+        "name": "text-halo",
+        "value": "0 1px 2px rgba(12,6,20,.85), 0 1px 18px rgba(12,6,20,.85)",
+        "purpose": "White running text over the scene."
+      },
+      {
+        "name": "text-halo-head",
+        "value": "0 1px 3px rgba(12,6,20,.45), 0 2px 30px rgba(12,6,20,.6)",
+        "purpose": "White section heads over the scene."
+      },
+      {
+        "name": "wordmark-drop",
+        "value": "drop-shadow(0 4px 22px rgba(12,6,20,.4))",
+        "purpose": "Arched wordmark (filter); a tighter two-layer drop at 980px and below."
       }
     ],
     "motion": [
       {
         "name": "ease-out",
         "value": "cubic-bezier(.23,1,.32,1)",
-        "purpose": "Default for every UI transition: press, thumb slide, card lift."
+        "purpose": "Standard ease for every UI transition."
       },
       {
-        "name": "ease-overshoot",
+        "name": "ease-spring",
         "value": "cubic-bezier(.34,1.4,.64,1)",
-        "purpose": "Evaluation bars filling (520ms)."
+        "purpose": "Minimax score bars, 520ms."
       },
       {
-        "name": "press",
-        "value": "160ms, scale(.97)",
-        "purpose": "Active state on buttons, chips, cards and the email pill."
+        "name": "duration-press",
+        "value": "160ms",
+        "purpose": "Press scale to 0.97 (0.96 for contact tiles and the sticker)."
       },
       {
-        "name": "colour",
-        "value": "200-220ms ease",
-        "purpose": "Colour, background and border changes."
+        "name": "duration-color",
+        "value": "200ms",
+        "purpose": "Colour, opacity and border changes; tooltip scale-in from 0.96."
       },
       {
-        "name": "segment-thumb",
-        "value": "320ms ease-out",
+        "name": "duration-tile",
+        "value": "300ms",
+        "purpose": "Contact tile tilt return, nav tone switch, view entrance."
+      },
+      {
+        "name": "duration-thumb",
+        "value": "320ms",
         "purpose": "Segmented control thumb slide."
       },
       {
-        "name": "nav-indicator",
-        "value": "420ms ease-out",
-        "purpose": "Nav indicator slide and fan card lift."
+        "name": "duration-fan",
+        "value": "420ms",
+        "purpose": "Fan card lift and nav indicator slide."
       },
       {
-        "name": "view-in",
-        "value": "300ms ease-out from opacity 0, blur(6px), translateY(6px)",
-        "purpose": "Tab panel entrance; plain fade under reduced motion."
+        "name": "duration-scene-fade",
+        "value": "1.2s",
+        "purpose": "WebGL canvas fade-in once ready."
       },
       {
-        "name": "intro",
-        "value": "GSAP timeline, expo.out, delay .25s: nav at .6s, tagline at .9s, underline draw at 1.4s (power2.inOut), fan cards at 1.25s with .07s stagger",
-        "purpose": "One authored load."
+        "name": "seal-spin",
+        "value": "48s linear infinite",
+        "purpose": "Seal rotation; none under reduced motion."
       },
       {
-        "name": "scene-intro",
-        "value": "tree grow 3.2s power2.inOut; wordmark 1.8s from .9s; fireflies 2.4s from 1.6s; story objects back.out(1.7) at 2.3s",
-        "purpose": "WebGL night arrival."
+        "name": "load-timeline",
+        "value": "GSAP expo.out, 0.2s delay",
+        "purpose": "Nav, tagline from blur, underline draw, intro card, wordmark letters, fan, seal."
       },
       {
-        "name": "data-reveal",
-        "value": "back.out(1.6) 1.1s with .12s stagger (Elo dots); back.out(2) .5s with .0045s stagger (hours grid)",
-        "purpose": "Overshoot-then-settle reveals, once on scroll."
+        "name": "page-turn",
+        "value": "rotationX 14deg, z -180px, scrub 0.6",
+        "purpose": "Hero exit tilt (12deg and -140px at 980px and below)."
       },
       {
-        "name": "disc-drop",
-        "value": "bounce.out, .18s + .05s per row",
-        "purpose": "Connect 4 counter drop."
+        "name": "candle-intro",
+        "value": "2.4s power2.out; props back.out(1.7) over 1.2s from 1.6s",
+        "purpose": "Candles catch, then the story props rise."
       },
       {
-        "name": "camera-path",
-        "value": "5 keys on a centripetal Catmull-Rom; smoothstep per section; damping 1-exp(-dt*4.2); dawn 0, 0, .05, .35, 1.0",
-        "purpose": "Scroll flight from hero through the canopy to the water at dawn."
+        "name": "camera-damping",
+        "value": "1 - exp(-dt * 4.2)",
+        "purpose": "The camera follows scroll with ballistic damping."
       },
       {
-        "name": "dim-veil",
-        "value": "opacity 0 to .5 by Work, held, easing to .3 at dawn",
-        "purpose": "Pushes the scene back under reading sections."
-      },
-      {
-        "name": "reduced-motion",
-        "value": "no intro, flight, parallax or bob; scene is a still at key 0; smooth scroll off",
-        "purpose": "prefers-reduced-motion."
+        "name": "sticker-wobble",
+        "value": "0.6s power1.inOut, keyframes -10, 4, -7, 1, -4deg",
+        "purpose": "Sticker click."
       }
     ],
     "breakpoints": [
       {
         "name": "fan-scale",
-        "value": "1100px"
+        "value": "1180px"
       },
       {
-        "name": "plates-stack",
+        "name": "primary",
         "value": "980px"
       },
       {
-        "name": "hero-about-stack",
+        "name": "stack-about",
         "value": "900px"
       },
       {
-        "name": "nav-emblem",
-        "value": "820px"
+        "name": "nav-cta",
+        "value": "860px"
       },
       {
-        "name": "xp-stack",
+        "name": "scene-small",
         "value": "760px"
       },
       {
-        "name": "hours-20col",
+        "name": "nav-numbers",
         "value": "700px"
       },
       {
-        "name": "nav-pill-only",
-        "value": "640px"
+        "name": "chart-labels",
+        "value": "600px"
       },
       {
         "name": "compact",
         "value": "560px"
       }
-    ],
-    "webgl": {
-      "toneMapping": "NeutralToneMapping, exposure 1.0, sRGB output",
-      "bloom": "UnrealBloomPass at half resolution: strength .62, radius .4, threshold .9 (small or coarse pointer: .42, .4, .96); dropped with lowfx when frame EMA exceeds 24ms",
-      "sky": {
-        "uZenith": "#01030b",
-        "uMid": "#081d4e",
-        "uHorizon": "#164a86",
-        "uGold": "#ffae42",
-        "uEmber": "#ff6417"
-      },
-      "canopy": [
-        "#3f7dff",
-        "#8cc0ff",
-        "#eaf3ff",
-        "#59d6ff",
-        "#ffb347"
-      ],
-      "lights": {
-        "hemisphere": "#5d86ff over #0a0d18, 0.9",
-        "sun": "#ffb060, 2.8",
-        "fill": "#9cc0ff, 0.9",
-        "key": "#fff0d8, 1.7"
-      },
-      "particles": "canopy 16000 points (8000 on small or coarse screens)",
-      "contactKeys": "RoundedBox bevel .19, clearcoat 1; bodies #11182f, #1f46bf, #efe9dc; key light #fff0dc 1.6, rim #ffb347 1.4; RoomEnvironment; NeutralToneMapping"
-    },
-    "print": "One-column resume: ink #111/#333/#555, rules #ccc, serif 22pt/14pt/11.5pt, body 9.5-10pt, link URLs appended; sky, canvas, nav, media, controls and contact hidden."
+    ]
   },
   "components": [
     {
-      "name": "Ink Button",
+      "name": "Parchment Button",
       "kind": "button",
-      "refersTo": "button-ink",
-      "description": "Primary pill: warm-white ink on night, for the one main call to action.",
-      "html": "<div class=\"ds-stage\"><a class=\"ds-btn ds-btn--ink\" href=\"#\">Let's talk</a></div>",
-      "css": ":host{--night-0:#040814;--night-1:#071029;--night-2:#0c1a3d;--ink:#f4efe4;--ink-2:#c6cbe0;--ink-3:#9aa4c4;--blue:#4f8cff;--blue-2:#8fb8ff;--blue-3:#cfe0ff;--gold:#ffb347;--gold-ink:#ffd08a;--glass:rgba(8,16,42,.62);--glass-strong:rgba(6,13,34,.8);--line:rgba(255,255,255,.12);--line-2:rgba(255,255,255,.2);--font-display:\"Noto Serif Display\",Georgia,serif;--font-body:Karla,\"Segoe UI\",sans-serif;--ease-out:cubic-bezier(.23,1,.32,1)} .ds-stage{background:var(--night-0);padding:32px}.ds-btn{display:inline-flex;align-items:center;gap:10px;border-radius:999px;padding:12px 20px;font:500 .95rem/1 var(--font-body);text-decoration:none;cursor:pointer;border:1px solid transparent;transition:transform 160ms var(--ease-out),background-color 200ms ease,border-color 200ms ease}.ds-btn:active{transform:scale(.97)}.ds-btn--ink{background:var(--ink);color:var(--night-0);box-shadow:0 10px 24px -12px rgba(0,0,0,.9),inset 0 1px 0 rgba(255,255,255,.7)}.ds-btn--ink:hover{background:#fff} :focus-visible{outline:2px solid var(--gold);outline-offset:3px}"
+      "refersTo": "button-parchment",
+      "description": "Primary pill CTA (Let's talk); inverts to plum with white text when the nav sits over parchment.",
+      "html": "<div class=\"ds-stage\"><a class=\"ds-btn\" href=\"#\">Let's talk</a></div>",
+      "css": ":host{--plum:#3b1f5a;--plum-3:#1d1029;--plum-4:#120a1c;--lav:#b9a6e0;--blood:#c0283f;--blood-2:#f0a0aa;--blood-ink:#8c1426;--cream:#ece2d0;--frame:#c3ab86;--ink:#1c1418;--ink-2:#433840;--ink-3:#66595f;--w1:#fff;--w2:rgba(255,255,255,.88);--w3:rgba(255,255,255,.72);--tile:rgba(26,13,38,.7);--tile-line:rgba(255,255,255,.16);--font-display:\"Gloock\",\"Bodoni 72\",\"Didot\",Georgia,serif;--font-body:\"Rokkitt\",\"Rockwell\",\"Roboto Slab\",Georgia,serif;--ease-out:cubic-bezier(.23,1,.32,1)} .ds-stage{background:#120a1c;padding:24px;} .ds-btn{display:inline-flex;align-items:center;gap:10px;border-radius:999px;padding:12px 20px;font:600 .82rem/1 var(--font-body);letter-spacing:.12em;text-transform:uppercase;text-decoration:none;background:var(--cream);color:var(--ink);box-shadow:0 10px 22px -14px rgba(0,0,0,.6);transition:transform 160ms var(--ease-out),background-color 200ms ease} .ds-btn:hover{background:#fff} .ds-btn:active{transform:scale(.97)} .ds-btn:focus-visible{outline:2px solid var(--blood);outline-offset:3px}"
     },
     {
       "name": "Ghost Button",
       "kind": "button",
       "refersTo": "button-ghost",
-      "description": "Secondary pill with a hairline border and a stroked icon, for tool actions.",
-      "html": "<div class=\"ds-stage\"><button class=\"ds-btn ds-btn--ghost\" type=\"button\"><svg viewBox=\"0 0 24 24\" width=\"18\" height=\"18\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.7\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M9 14 4 9l5-5\"/><path d=\"M4 9h10.5a5.5 5.5 0 0 1 0 11H11\"/></svg>Undo</button></div>",
-      "css": ":host{--night-0:#040814;--night-1:#071029;--night-2:#0c1a3d;--ink:#f4efe4;--ink-2:#c6cbe0;--ink-3:#9aa4c4;--blue:#4f8cff;--blue-2:#8fb8ff;--blue-3:#cfe0ff;--gold:#ffb347;--gold-ink:#ffd08a;--glass:rgba(8,16,42,.62);--glass-strong:rgba(6,13,34,.8);--line:rgba(255,255,255,.12);--line-2:rgba(255,255,255,.2);--font-display:\"Noto Serif Display\",Georgia,serif;--font-body:Karla,\"Segoe UI\",sans-serif;--ease-out:cubic-bezier(.23,1,.32,1)} .ds-stage{background:var(--night-0);padding:32px}.ds-btn{display:inline-flex;align-items:center;gap:10px;border-radius:999px;padding:12px 20px;font:500 .95rem/1 var(--font-body);text-decoration:none;cursor:pointer;border:1px solid transparent;transition:transform 160ms var(--ease-out),background-color 200ms ease,border-color 200ms ease}.ds-btn:active{transform:scale(.97)}.ds-btn--ghost{background:rgba(255,255,255,.04);border-color:var(--line-2);color:var(--ink)}.ds-btn--ghost:hover{background:rgba(255,255,255,.09);border-color:rgba(255,255,255,.32)} :focus-visible{outline:2px solid var(--gold);outline-offset:3px}"
+      "description": "Secondary actions on violet tiles (Undo, Hint, Restart).",
+      "html": "<div class=\"ds-stage\"><button class=\"ds-ghost\">Hint</button></div>",
+      "css": ":host{--plum:#3b1f5a;--plum-3:#1d1029;--plum-4:#120a1c;--lav:#b9a6e0;--blood:#c0283f;--blood-2:#f0a0aa;--blood-ink:#8c1426;--cream:#ece2d0;--frame:#c3ab86;--ink:#1c1418;--ink-2:#433840;--ink-3:#66595f;--w1:#fff;--w2:rgba(255,255,255,.88);--w3:rgba(255,255,255,.72);--tile:rgba(26,13,38,.7);--tile-line:rgba(255,255,255,.16);--font-display:\"Gloock\",\"Bodoni 72\",\"Didot\",Georgia,serif;--font-body:\"Rokkitt\",\"Rockwell\",\"Roboto Slab\",Georgia,serif;--ease-out:cubic-bezier(.23,1,.32,1)} .ds-stage{background:#120a1c;padding:24px;} .ds-ghost{display:inline-flex;align-items:center;border-radius:999px;padding:12px 20px;font:500 .95rem/1 var(--font-body);letter-spacing:.06em;background:rgba(255,255,255,.05);border:1px solid rgba(255,255,255,.3);color:#fff;cursor:pointer;transition:transform 160ms var(--ease-out),background-color 200ms ease,border-color 200ms ease} .ds-ghost:hover{background:rgba(255,255,255,.12);border-color:rgba(255,255,255,.5)} .ds-ghost:active{transform:scale(.97)} .ds-ghost:focus-visible{outline:2px solid var(--blood);outline-offset:3px}"
     },
     {
-      "name": "Glass Nav Pill",
+      "name": "Puzzle Chip",
+      "kind": "chip",
+      "refersTo": "chip",
+      "description": "Connect 4 puzzle selector; the pressed state takes blood.",
+      "html": "<div class=\"ds-stage\"><button class=\"ds-chip\" aria-pressed=\"true\">Puzzle 1</button> <button class=\"ds-chip\" aria-pressed=\"false\">Puzzle 2</button></div>",
+      "css": ":host{--plum:#3b1f5a;--plum-3:#1d1029;--plum-4:#120a1c;--lav:#b9a6e0;--blood:#c0283f;--blood-2:#f0a0aa;--blood-ink:#8c1426;--cream:#ece2d0;--frame:#c3ab86;--ink:#1c1418;--ink-2:#433840;--ink-3:#66595f;--w1:#fff;--w2:rgba(255,255,255,.88);--w3:rgba(255,255,255,.72);--tile:rgba(26,13,38,.7);--tile-line:rgba(255,255,255,.16);--font-display:\"Gloock\",\"Bodoni 72\",\"Didot\",Georgia,serif;--font-body:\"Rokkitt\",\"Rockwell\",\"Roboto Slab\",Georgia,serif;--ease-out:cubic-bezier(.23,1,.32,1)} .ds-stage{background:#120a1c;padding:24px;} .ds-chip{border:1px solid rgba(255,255,255,.3);background:rgba(255,255,255,.04);color:var(--w2);border-radius:999px;padding:7px 13px;font:500 .9rem/1 var(--font-body);cursor:pointer;transition:background-color 200ms ease,color 200ms ease,border-color 200ms ease,transform 160ms var(--ease-out)} .ds-chip[aria-pressed=true]{background:rgba(192,40,63,.2);border-color:var(--blood);color:var(--blood-2)} .ds-chip[aria-pressed=false]:hover{color:#fff;border-color:rgba(255,255,255,.5)} .ds-chip:active{transform:scale(.97)} .ds-chip:focus-visible{outline:2px solid var(--blood);outline-offset:3px}"
+    },
+    {
+      "name": "Numbered Nav",
       "kind": "nav",
-      "refersTo": "nav-pill",
-      "description": "Centred frosted pill nav with a gold tree emblem and an ink indicator on the current section.",
-      "html": "<div class=\"ds-stage\"><nav class=\"ds-nav\"><a href=\"#\" class=\"is-on\">Work</a><a href=\"#\">About</a><span class=\"ds-emb\"><svg viewBox=\"0 0 24 24\" width=\"22\" height=\"22\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.7\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M2.5 20.5h19\"/><path d=\"M12 20.5v-7.5m0 2.2-3.6-3.2m3.6 1.4 4-3.6\"/><path d=\"M3.5 10.6C5 6.6 8.2 4.4 12 4.4s7 2.2 8.5 6.2c-2.2 1-5.2 1.5-8.5 1.5s-6.3-.5-8.5-1.5Z\"/></svg></span><a href=\"#\">Experience</a><a href=\"#\">Contact</a></nav></div>",
-      "css": ":host{--night-0:#040814;--night-1:#071029;--night-2:#0c1a3d;--ink:#f4efe4;--ink-2:#c6cbe0;--ink-3:#9aa4c4;--blue:#4f8cff;--blue-2:#8fb8ff;--blue-3:#cfe0ff;--gold:#ffb347;--gold-ink:#ffd08a;--glass:rgba(8,16,42,.62);--glass-strong:rgba(6,13,34,.8);--line:rgba(255,255,255,.12);--line-2:rgba(255,255,255,.2);--font-display:\"Noto Serif Display\",Georgia,serif;--font-body:Karla,\"Segoe UI\",sans-serif;--ease-out:cubic-bezier(.23,1,.32,1)} .ds-stage{background:linear-gradient(180deg,#02050f,#061433 60%,#1b2c66);padding:32px}.ds-nav{display:inline-flex;align-items:center;gap:2px;padding:5px;border-radius:999px;background:rgba(6,13,34,.58);border:1px solid var(--line);backdrop-filter:blur(16px) saturate(140%);box-shadow:0 10px 22px -14px rgba(0,0,0,.85),inset 0 1px 0 rgba(255,255,255,.07)}.ds-nav a{padding:9px 16px;border-radius:999px;font:500 .875rem/1 var(--font-body);color:var(--ink-2);text-decoration:none;transition:color 220ms ease,background-color 420ms var(--ease-out)}.ds-nav a:not(.is-on):hover{color:var(--ink)}.ds-nav a.is-on{background:var(--ink);color:var(--night-0)}.ds-emb{display:grid;place-items:center;width:38px;height:30px;color:var(--gold)} :focus-visible{outline:2px solid var(--gold);outline-offset:3px}"
+      "refersTo": "label",
+      "description": "Fixed nav: white labels with 01/ prefixes and a sliding underline; switches to ink over parchment.",
+      "html": "<div class=\"ds-stage\"><nav class=\"ds-nav\"><a href=\"#\" aria-current=\"true\"><i>01/</i>Work</a><a href=\"#\"><i>02/</i>About</a><a href=\"#\"><i>03/</i>Experience</a><a href=\"#\"><i>04/</i>Contact</a></nav></div>",
+      "css": ":host{--plum:#3b1f5a;--plum-3:#1d1029;--plum-4:#120a1c;--lav:#b9a6e0;--blood:#c0283f;--blood-2:#f0a0aa;--blood-ink:#8c1426;--cream:#ece2d0;--frame:#c3ab86;--ink:#1c1418;--ink-2:#433840;--ink-3:#66595f;--w1:#fff;--w2:rgba(255,255,255,.88);--w3:rgba(255,255,255,.72);--tile:rgba(26,13,38,.7);--tile-line:rgba(255,255,255,.16);--font-display:\"Gloock\",\"Bodoni 72\",\"Didot\",Georgia,serif;--font-body:\"Rokkitt\",\"Rockwell\",\"Roboto Slab\",Georgia,serif;--ease-out:cubic-bezier(.23,1,.32,1)} .ds-stage{background:#120a1c;padding:24px;} .ds-nav{display:flex;gap:32px;color:#fff} .ds-nav a{position:relative;padding:8px 0;font:500 .78rem/1 var(--font-body);letter-spacing:.14em;text-transform:uppercase;text-decoration:none;color:inherit;opacity:.82;transition:opacity 200ms ease} .ds-nav a i{font-style:normal;opacity:.65;margin-right:.6em;letter-spacing:.04em} .ds-nav a[aria-current=true],.ds-nav a:hover{opacity:1} .ds-nav a[aria-current=true]::after{content:\"\";position:absolute;left:0;right:0;bottom:2px;height:1px;background:currentColor} .ds-nav a:focus-visible{outline:2px solid var(--blood);outline-offset:3px}"
+    },
+    {
+      "name": "Inset-Framed Parchment Card",
+      "kind": "card",
+      "refersTo": "card",
+      "description": "Every reading surface: parchment, square, with a 1px frame 9px inside the edge.",
+      "html": "<div class=\"ds-stage\"><div class=\"ds-card\"><h3>Twelve years at Sandford</h3><p>I joined Sandford International School in August 2014.</p></div></div>",
+      "css": ":host{--plum:#3b1f5a;--plum-3:#1d1029;--plum-4:#120a1c;--lav:#b9a6e0;--blood:#c0283f;--blood-2:#f0a0aa;--blood-ink:#8c1426;--cream:#ece2d0;--frame:#c3ab86;--ink:#1c1418;--ink-2:#433840;--ink-3:#66595f;--w1:#fff;--w2:rgba(255,255,255,.88);--w3:rgba(255,255,255,.72);--tile:rgba(26,13,38,.7);--tile-line:rgba(255,255,255,.16);--font-display:\"Gloock\",\"Bodoni 72\",\"Didot\",Georgia,serif;--font-body:\"Rokkitt\",\"Rockwell\",\"Roboto Slab\",Georgia,serif;--ease-out:cubic-bezier(.23,1,.32,1)} .ds-stage{background:#120a1c;padding:24px;} .ds-card{position:relative;max-width:26rem;background:var(--cream);color:var(--ink);padding:28px 30px} .ds-card::after{content:\"\";position:absolute;inset:9px;border:1px solid var(--frame);pointer-events:none} .ds-card h3{font:400 1.7rem/1 var(--font-display);text-transform:uppercase;letter-spacing:.01em;margin:0 0 10px} .ds-card p{margin:0;font:400 1rem/1.45 var(--font-body);color:var(--ink-2)}"
+    },
+    {
+      "name": "Project Plate",
+      "kind": "custom",
+      "refersTo": "plate-tile",
+      "description": "Signature: a numbered violet-glass tile checkerboarded against a parchment body.",
+      "html": "<div class=\"ds-stage\"><article class=\"ds-plate\"><div class=\"ds-tile\"><span class=\"ds-num\">01</span><p class=\"ds-cap\">Live view</p></div><div class=\"ds-body\"><h3>The school website</h3><p class=\"ds-lede\">A new site for Sandford, built solo.</p><p class=\"ds-note\">The code stays private.</p><ul class=\"ds-tags\"><li>Astro</li><li>SEO</li></ul></div></article></div>",
+      "css": ":host{--plum:#3b1f5a;--plum-3:#1d1029;--plum-4:#120a1c;--lav:#b9a6e0;--blood:#c0283f;--blood-2:#f0a0aa;--blood-ink:#8c1426;--cream:#ece2d0;--frame:#c3ab86;--ink:#1c1418;--ink-2:#433840;--ink-3:#66595f;--w1:#fff;--w2:rgba(255,255,255,.88);--w3:rgba(255,255,255,.72);--tile:rgba(26,13,38,.7);--tile-line:rgba(255,255,255,.16);--font-display:\"Gloock\",\"Bodoni 72\",\"Didot\",Georgia,serif;--font-body:\"Rokkitt\",\"Rockwell\",\"Roboto Slab\",Georgia,serif;--ease-out:cubic-bezier(.23,1,.32,1)} .ds-stage{background:linear-gradient(180deg,#1d1029,#3b1f5a 60%,#120a1c);padding:24px} .ds-plate{display:grid;grid-template-columns:1.12fr 1fr;max-width:760px} .ds-tile{padding:20px;min-height:260px;background:var(--tile);border:1px solid var(--tile-line);backdrop-filter:blur(10px) saturate(120%);color:#fff;display:flex;justify-content:space-between;align-items:flex-start} .ds-num{font:400 5.4rem/.82 var(--font-display);letter-spacing:-.01em;font-variant-numeric:lining-nums} .ds-cap{margin:0;font:400 .92rem var(--font-body);color:var(--w3)} .ds-body{position:relative;background:var(--cream);color:var(--ink);padding:36px;display:flex;flex-direction:column;justify-content:center} .ds-body::after{content:\"\";position:absolute;inset:12px;border:1px solid var(--frame);pointer-events:none} .ds-body h3{font:400 2rem/.98 var(--font-display);text-transform:uppercase;letter-spacing:.01em;margin:0 0 14px} .ds-lede{margin:0 0 8px;font:400 1.25rem/1.42 var(--font-body)} .ds-note{margin:0;font:400 1rem var(--font-body);color:var(--blood-ink)} .ds-tags{display:flex;gap:8px;list-style:none;padding:0;margin:14px 0 0} .ds-tags li{font:400 .95rem var(--font-body);padding:4px 11px 4px 9px;border:1px solid var(--frame);color:var(--ink-2)} .ds-tags li::before{content:\"+\";color:var(--plum);margin-right:6px;font-weight:600}"
     },
     {
       "name": "Segmented Control",
       "kind": "custom",
-      "refersTo": "segmented",
-      "description": "Plate view switcher: dark pill track with a sliding ink thumb.",
-      "html": "<div class=\"ds-stage\"><div class=\"ds-seg\" role=\"tablist\"><button role=\"tab\" aria-selected=\"true\">Play</button><button role=\"tab\" aria-selected=\"false\">How it thinks</button></div></div>",
-      "css": ":host{--night-0:#040814;--night-1:#071029;--night-2:#0c1a3d;--ink:#f4efe4;--ink-2:#c6cbe0;--ink-3:#9aa4c4;--blue:#4f8cff;--blue-2:#8fb8ff;--blue-3:#cfe0ff;--gold:#ffb347;--gold-ink:#ffd08a;--glass:rgba(8,16,42,.62);--glass-strong:rgba(6,13,34,.8);--line:rgba(255,255,255,.12);--line-2:rgba(255,255,255,.2);--font-display:\"Noto Serif Display\",Georgia,serif;--font-body:Karla,\"Segoe UI\",sans-serif;--ease-out:cubic-bezier(.23,1,.32,1)} .ds-stage{background:var(--night-1);padding:32px}.ds-seg{display:inline-flex;padding:4px;border-radius:999px;background:rgba(4,8,22,.75);border:1px solid var(--line);box-shadow:inset 0 1px 0 rgba(255,255,255,.05)}.ds-seg button{border:0;background:none;padding:8px 16px;border-radius:999px;font:500 .86rem/1 var(--font-body);color:var(--ink-2);cursor:pointer;transition:color 220ms ease,background-color 320ms var(--ease-out)}.ds-seg button[aria-selected=false]:hover{color:var(--ink)}.ds-seg button[aria-selected=true]{background:var(--ink);color:var(--night-0);box-shadow:0 6px 16px -6px rgba(0,0,0,.7),inset 0 1px 0 #fff} :focus-visible{outline:2px solid var(--gold);outline-offset:3px}"
+      "refersTo": "segmented-control",
+      "description": "View switcher on violet tiles with a sliding parchment thumb.",
+      "html": "<div class=\"ds-stage\"><div class=\"ds-seg\" role=\"tablist\"><span class=\"ds-thumb\"></span><button role=\"tab\" aria-selected=\"true\">Desktop</button><button role=\"tab\" aria-selected=\"false\">Phone</button></div></div>",
+      "css": ":host{--plum:#3b1f5a;--plum-3:#1d1029;--plum-4:#120a1c;--lav:#b9a6e0;--blood:#c0283f;--blood-2:#f0a0aa;--blood-ink:#8c1426;--cream:#ece2d0;--frame:#c3ab86;--ink:#1c1418;--ink-2:#433840;--ink-3:#66595f;--w1:#fff;--w2:rgba(255,255,255,.88);--w3:rgba(255,255,255,.72);--tile:rgba(26,13,38,.7);--tile-line:rgba(255,255,255,.16);--font-display:\"Gloock\",\"Bodoni 72\",\"Didot\",Georgia,serif;--font-body:\"Rokkitt\",\"Rockwell\",\"Roboto Slab\",Georgia,serif;--ease-out:cubic-bezier(.23,1,.32,1)} .ds-stage{background:#120a1c;padding:24px;} .ds-seg{position:relative;display:inline-flex;padding:4px;border-radius:999px;background:rgba(12,6,20,.72);border:1px solid var(--tile-line)} .ds-seg [role=tab]{position:relative;z-index:1;border:0;background:none;padding:8px 16px;border-radius:999px;font:500 .95rem/1 var(--font-body);color:var(--w2);cursor:pointer;transition:color 220ms ease} .ds-seg [role=tab][aria-selected=true]{color:var(--ink)} .ds-seg [role=tab][aria-selected=false]:hover{color:#fff} .ds-seg [role=tab]:focus-visible{outline:2px solid var(--blood);outline-offset:3px} .ds-thumb{position:absolute;z-index:0;top:4px;bottom:4px;left:4px;width:86px;border-radius:999px;background:var(--cream);transition:transform 320ms var(--ease-out),width 320ms var(--ease-out)}"
     },
     {
-      "name": "Chip and Tag",
-      "kind": "chip",
-      "refersTo": "chip",
-      "description": "Selectable pill whose pressed state takes the gold light, beside a static tag.",
-      "html": "<div class=\"ds-stage\"><button class=\"ds-chip\" aria-pressed=\"true\">Double threat</button><button class=\"ds-chip\" aria-pressed=\"false\">Stacked threats</button><span class=\"ds-tag\">Astro</span></div>",
-      "css": ":host{--night-0:#040814;--night-1:#071029;--night-2:#0c1a3d;--ink:#f4efe4;--ink-2:#c6cbe0;--ink-3:#9aa4c4;--blue:#4f8cff;--blue-2:#8fb8ff;--blue-3:#cfe0ff;--gold:#ffb347;--gold-ink:#ffd08a;--glass:rgba(8,16,42,.62);--glass-strong:rgba(6,13,34,.8);--line:rgba(255,255,255,.12);--line-2:rgba(255,255,255,.2);--font-display:\"Noto Serif Display\",Georgia,serif;--font-body:Karla,\"Segoe UI\",sans-serif;--ease-out:cubic-bezier(.23,1,.32,1)} .ds-stage{background:var(--night-1);padding:32px;display:flex;gap:6px;align-items:center}.ds-chip{border:1px solid var(--line-2);background:rgba(255,255,255,.03);color:var(--ink-2);border-radius:999px;padding:7px 13px;font:500 .8rem/1 var(--font-body);cursor:pointer;transition:background-color 200ms ease,color 200ms ease,border-color 200ms ease,transform 160ms var(--ease-out)}.ds-chip:active{transform:scale(.97)}.ds-chip[aria-pressed=true]{background:rgba(255,179,71,.14);border-color:rgba(255,179,71,.6);color:var(--gold-ink)}.ds-chip[aria-pressed=false]:hover{color:var(--ink);border-color:rgba(255,255,255,.34)}.ds-tag{font:400 .84rem/1.2 var(--font-body);padding:6px 12px;border-radius:999px;border:1px solid var(--line-2);color:var(--ink-2);background:rgba(255,255,255,.03)} :focus-visible{outline:2px solid var(--gold);outline-offset:3px}"
+      "name": "Contact Tile",
+      "kind": "custom",
+      "refersTo": "contact-tile",
+      "description": "A flat parchment square with an inset frame and a plum line icon; leans toward the pointer.",
+      "html": "<div class=\"ds-stage\"><a class=\"ds-tile\" href=\"#\"><svg viewBox=\"0 0 24 24\" width=\"30\" height=\"30\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.7\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><rect x=\"3\" y=\"5\" width=\"18\" height=\"14\" rx=\"2.4\"/><path d=\"m3.5 7 8.5 6 8.5-6\"/></svg><span class=\"ds-label\">Email</span><span class=\"ds-sub\">ftiraees@gmail.com</span></a></div>",
+      "css": ":host{--plum:#3b1f5a;--plum-3:#1d1029;--plum-4:#120a1c;--lav:#b9a6e0;--blood:#c0283f;--blood-2:#f0a0aa;--blood-ink:#8c1426;--cream:#ece2d0;--frame:#c3ab86;--ink:#1c1418;--ink-2:#433840;--ink-3:#66595f;--w1:#fff;--w2:rgba(255,255,255,.88);--w3:rgba(255,255,255,.72);--tile:rgba(26,13,38,.7);--tile-line:rgba(255,255,255,.16);--font-display:\"Gloock\",\"Bodoni 72\",\"Didot\",Georgia,serif;--font-body:\"Rokkitt\",\"Rockwell\",\"Roboto Slab\",Georgia,serif;--ease-out:cubic-bezier(.23,1,.32,1)} .ds-stage{background:#120a1c;padding:24px;perspective:700px} .ds-tile{position:relative;display:grid;justify-items:center;align-content:center;gap:9px;width:144px;height:144px;padding:12px;background:var(--cream);color:var(--plum);text-decoration:none;box-shadow:0 16px 26px -16px rgba(12,6,20,.75);transition:transform 300ms var(--ease-out),box-shadow 300ms var(--ease-out)} .ds-tile::after{content:\"\";position:absolute;inset:6px;border:1px solid var(--frame);pointer-events:none} .ds-tile:hover{transform:rotateX(-6deg) rotateY(8deg);box-shadow:0 24px 30px -16px rgba(12,6,20,.85)} .ds-tile:active{transform:scale(.96)} .ds-tile:focus-visible{outline:2px solid var(--blood);outline-offset:3px} .ds-label{font:400 1.05rem/1 var(--font-display);text-transform:uppercase;letter-spacing:.04em;color:var(--ink)} .ds-sub{font:400 .88rem/1.2 var(--font-body);color:var(--ink-3)}"
     },
     {
-      "name": "Project Plate",
-      "kind": "card",
-      "refersTo": "plate",
-      "description": "Numbered night-glass slab with serif counter, title, lede and a hairline facts strip.",
-      "html": "<div class=\"ds-stage\"><article class=\"ds-plate\"><p class=\"ds-count\">01<small>/ 05</small></p><h3 class=\"ds-title\">Sandford International School website</h3><p class=\"ds-lede\">I've been building my school's website on my own since Year 11.</p><dl class=\"ds-facts\"><div><dt>Role</dt><dd>Solo designer and developer</dd></div><div><dt>Time</dt><dd>About 200 hours</dd></div></dl></article></div>",
-      "css": ":host{--night-0:#040814;--night-1:#071029;--night-2:#0c1a3d;--ink:#f4efe4;--ink-2:#c6cbe0;--ink-3:#9aa4c4;--blue:#4f8cff;--blue-2:#8fb8ff;--blue-3:#cfe0ff;--gold:#ffb347;--gold-ink:#ffd08a;--glass:rgba(8,16,42,.62);--glass-strong:rgba(6,13,34,.8);--line:rgba(255,255,255,.12);--line-2:rgba(255,255,255,.2);--font-display:\"Noto Serif Display\",Georgia,serif;--font-body:Karla,\"Segoe UI\",sans-serif;--ease-out:cubic-bezier(.23,1,.32,1)} .ds-stage{background:linear-gradient(180deg,#061433,#1b2c66);padding:32px}.ds-plate{max-width:30rem;padding:26px;border-radius:30px;background:linear-gradient(90deg,rgba(8,16,42,.44),rgba(6,13,34,.74));border:1px solid var(--line);backdrop-filter:blur(24px) saturate(160%);box-shadow:inset 0 1px 0 rgba(255,255,255,.06);color:var(--ink);font-family:var(--font-body)}.ds-count{margin:0 0 22px;font:300 3.2rem/1 var(--font-display);letter-spacing:-.02em}.ds-count small{font-size:1.15rem;color:var(--ink-3);margin-left:.3em;letter-spacing:0}.ds-title{margin:0 0 16px;font:400 1.9rem/1.12 var(--font-display);letter-spacing:-.012em}.ds-lede{margin:0;font-size:1.1rem;line-height:1.55}.ds-facts{display:grid;grid-template-columns:1fr 1fr;gap:14px 18px;margin:22px 0 0;padding:16px 0;border-block:1px solid var(--line)}.ds-facts dt{font-size:.78rem;color:var(--ink-3)}.ds-facts dd{margin:0;font-size:.92rem}"
+      "name": "Statement Band with Seal",
+      "kind": "custom",
+      "refersTo": "statement-band",
+      "description": "A full-bleed parchment band: the giant uppercase creed beside the blood-ink seal.",
+      "html": "<section class=\"ds-band\"><svg class=\"ds-seal\" viewBox=\"0 0 120 120\" aria-hidden=\"true\"><defs><path id=\"dsc\" d=\"M60 60m-46 0a46 46 0 1 1 92 0a46 46 0 1 1-92 0\"/></defs><circle cx=\"60\" cy=\"60\" r=\"58\" fill=\"none\" stroke=\"currentColor\" stroke-opacity=\".55\"/><circle cx=\"60\" cy=\"60\" r=\"34\" fill=\"none\" stroke=\"currentColor\" stroke-opacity=\".55\"/><text><textPath href=\"#dsc\">SANDFORD · SINCE 2014 · ADDIS ABABA ·</textPath></text></svg><h2>“If I can’t fix the big things, I fix the ones I can.”</h2></section>",
+      "css": ":host{--plum:#3b1f5a;--plum-3:#1d1029;--plum-4:#120a1c;--lav:#b9a6e0;--blood:#c0283f;--blood-2:#f0a0aa;--blood-ink:#8c1426;--cream:#ece2d0;--frame:#c3ab86;--ink:#1c1418;--ink-2:#433840;--ink-3:#66595f;--w1:#fff;--w2:rgba(255,255,255,.88);--w3:rgba(255,255,255,.72);--tile:rgba(26,13,38,.7);--tile-line:rgba(255,255,255,.16);--font-display:\"Gloock\",\"Bodoni 72\",\"Didot\",Georgia,serif;--font-body:\"Rokkitt\",\"Rockwell\",\"Roboto Slab\",Georgia,serif;--ease-out:cubic-bezier(.23,1,.32,1)} .ds-band{display:grid;grid-template-columns:auto 1fr;gap:40px;align-items:start;background:var(--cream);color:var(--ink);padding:64px 40px} .ds-seal{width:100px;height:100px;color:var(--blood-ink);overflow:visible;animation:ds-spin 48s linear infinite} .ds-seal text{font:500 10.4px/1 var(--font-body);letter-spacing:2.2px;fill:currentColor} .ds-band h2{margin:0;font:400 3.4rem/.96 var(--font-display);text-transform:uppercase;letter-spacing:.005em;text-wrap:balance} @keyframes ds-spin{to{transform:rotate(360deg)}} @media (prefers-reduced-motion:reduce){.ds-seal{animation:none}}"
     },
     {
-      "name": "Fan Card",
-      "kind": "card",
-      "refersTo": "fan-card",
-      "description": "Tilted glass project card from the hero fan; lifts, straightens and warms on hover.",
-      "html": "<div class=\"ds-stage\"><a class=\"ds-fan\" href=\"#\"><span class=\"ds-thumb\"></span><span class=\"ds-lab\">Canteen forecast</span></a></div>",
-      "css": ":host{--night-0:#040814;--night-1:#071029;--night-2:#0c1a3d;--ink:#f4efe4;--ink-2:#c6cbe0;--ink-3:#9aa4c4;--blue:#4f8cff;--blue-2:#8fb8ff;--blue-3:#cfe0ff;--gold:#ffb347;--gold-ink:#ffd08a;--glass:rgba(8,16,42,.62);--glass-strong:rgba(6,13,34,.8);--line:rgba(255,255,255,.12);--line-2:rgba(255,255,255,.2);--font-display:\"Noto Serif Display\",Georgia,serif;--font-body:Karla,\"Segoe UI\",sans-serif;--ease-out:cubic-bezier(.23,1,.32,1)} .ds-stage{background:var(--night-1);padding:48px}.ds-fan{display:inline-block;width:140px;padding:7px 7px 10px;border-radius:18px;background:var(--glass-strong);border:1px solid var(--line-2);color:var(--ink);text-decoration:none;transform:rotate(3.5deg);transition:transform 420ms var(--ease-out),border-color 200ms ease;box-shadow:0 14px 22px -12px rgba(0,0,0,.85),inset 0 1px 0 rgba(255,255,255,.08)}.ds-fan:hover{transform:translateY(-22px) rotate(1.4deg);border-color:rgba(255,208,138,.55)}.ds-fan:active{transform:rotate(3.5deg) scale(.97)}.ds-thumb{display:block;aspect-ratio:1/1.08;border-radius:12px;background:#081230}.ds-lab{display:block;margin-top:9px;text-align:center;font:400 .86rem/1.15 var(--font-display)} :focus-visible{outline:2px solid var(--gold);outline-offset:3px}"
-    },
-    {
-      "name": "Copy-Email Pill",
+      "name": "Email Pill",
       "kind": "button",
       "refersTo": "email-pill",
-      "description": "Glass pill holding the address with a round ink icon well; copies on click.",
-      "html": "<div class=\"ds-stage\"><button class=\"ds-email\" type=\"button\"><span>ftiraees@gmail.com</span><span class=\"ds-ic\"><svg viewBox=\"0 0 24 24\" width=\"18\" height=\"18\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.7\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><rect x=\"8\" y=\"8\" width=\"12\" height=\"12\" rx=\"2\"/><path d=\"M16 8V5a1 1 0 0 0-1-1H5a1 1 0 0 0-1 1v10a1 1 0 0 0 1 1h3\"/></svg></span></button></div>",
-      "css": ":host{--night-0:#040814;--night-1:#071029;--night-2:#0c1a3d;--ink:#f4efe4;--ink-2:#c6cbe0;--ink-3:#9aa4c4;--blue:#4f8cff;--blue-2:#8fb8ff;--blue-3:#cfe0ff;--gold:#ffb347;--gold-ink:#ffd08a;--glass:rgba(8,16,42,.62);--glass-strong:rgba(6,13,34,.8);--line:rgba(255,255,255,.12);--line-2:rgba(255,255,255,.2);--font-display:\"Noto Serif Display\",Georgia,serif;--font-body:Karla,\"Segoe UI\",sans-serif;--ease-out:cubic-bezier(.23,1,.32,1)} .ds-stage{background:var(--night-1);padding:32px}.ds-email{display:inline-grid;grid-template-columns:1fr auto;align-items:center;gap:14px;padding:14px 16px 14px 26px;border-radius:999px;border:1px solid rgba(255,255,255,.22);background:rgba(4,8,22,.78);backdrop-filter:blur(14px);cursor:pointer;font:500 1.2rem/1 var(--font-body);color:var(--ink);box-shadow:0 14px 24px -14px rgba(0,0,0,.9),inset 0 1px 0 rgba(255,255,255,.08);transition:transform 160ms var(--ease-out),border-color 200ms ease}.ds-email:hover{border-color:rgba(255,208,138,.6)}.ds-email:active{transform:scale(.97)}.ds-ic{display:grid;place-items:center;width:40px;height:40px;border-radius:50%;background:var(--ink);color:var(--night-0)} :focus-visible{outline:2px solid var(--gold);outline-offset:3px}"
+      "description": "A copy-to-clipboard pill with a plum icon disc.",
+      "html": "<div class=\"ds-stage\"><button class=\"ds-email\"><span>ftiraees@gmail.com</span><span class=\"ds-ico\"><svg viewBox=\"0 0 24 24\" width=\"18\" height=\"18\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.7\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><rect x=\"8.5\" y=\"8.5\" width=\"11.5\" height=\"11.5\" rx=\"2.2\"/><path d=\"M15.5 8.5V6.2a2.2 2.2 0 0 0-2.2-2.2H6.2A2.2 2.2 0 0 0 4 6.2v7.1a2.2 2.2 0 0 0 2.2 2.2h2.3\"/></svg></span></button></div>",
+      "css": ":host{--plum:#3b1f5a;--plum-3:#1d1029;--plum-4:#120a1c;--lav:#b9a6e0;--blood:#c0283f;--blood-2:#f0a0aa;--blood-ink:#8c1426;--cream:#ece2d0;--frame:#c3ab86;--ink:#1c1418;--ink-2:#433840;--ink-3:#66595f;--w1:#fff;--w2:rgba(255,255,255,.88);--w3:rgba(255,255,255,.72);--tile:rgba(26,13,38,.7);--tile-line:rgba(255,255,255,.16);--font-display:\"Gloock\",\"Bodoni 72\",\"Didot\",Georgia,serif;--font-body:\"Rokkitt\",\"Rockwell\",\"Roboto Slab\",Georgia,serif;--ease-out:cubic-bezier(.23,1,.32,1)} .ds-stage{background:#120a1c;padding:24px;} .ds-email{display:inline-grid;grid-template-columns:1fr auto;align-items:center;gap:14px;padding:12px 12px 12px 26px;border-radius:999px;border:0;background:var(--cream);cursor:pointer;font:600 1.3rem/1 var(--font-body);letter-spacing:.02em;color:var(--ink);box-shadow:0 14px 24px -14px rgba(12,6,20,.8);transition:transform 160ms var(--ease-out)} .ds-email:active{transform:scale(.97)} .ds-email:focus-visible{outline:2px solid var(--blood);outline-offset:3px} .ds-ico{display:grid;place-items:center;width:42px;height:42px;border-radius:50%;background:var(--plum);color:#fff}"
     },
     {
-      "name": "Contact Key (flat fallback)",
-      "kind": "custom",
-      "refersTo": "contact-key",
-      "description": "The CSS tile beneath each 3D WebGL key; it is the real link and the no-WebGL fallback.",
-      "html": "<div class=\"ds-stage\"><a class=\"ds-tile\" href=\"#\"><span class=\"ds-key\"><svg viewBox=\"0 0 24 24\" width=\"32\" height=\"32\" fill=\"#f4efe4\"><path d=\"M2.5 5h19v14h-19zM4.6 7l7.4 5.6L19.4 7z\"/></svg></span><span>Email</span></a></div>",
-      "css": ":host{--night-0:#040814;--night-1:#071029;--night-2:#0c1a3d;--ink:#f4efe4;--ink-2:#c6cbe0;--ink-3:#9aa4c4;--blue:#4f8cff;--blue-2:#8fb8ff;--blue-3:#cfe0ff;--gold:#ffb347;--gold-ink:#ffd08a;--glass:rgba(8,16,42,.62);--glass-strong:rgba(6,13,34,.8);--line:rgba(255,255,255,.12);--line-2:rgba(255,255,255,.2);--font-display:\"Noto Serif Display\",Georgia,serif;--font-body:Karla,\"Segoe UI\",sans-serif;--ease-out:cubic-bezier(.23,1,.32,1)} .ds-stage{background:var(--night-1);padding:32px}.ds-tile{display:inline-grid;justify-items:center;gap:10px;width:118px;color:var(--ink);text-decoration:none;font:500 .9rem/1.2 var(--font-body)}.ds-key{display:grid;place-items:center;width:76px;height:76px;border-radius:22px;background:linear-gradient(160deg,#1b3478,#0b1740 70%);border:1px solid rgba(143,184,255,.28);box-shadow:0 14px 22px -12px rgba(0,0,0,.95),inset 0 1px 0 rgba(255,255,255,.22),inset 0 -6px 12px rgba(0,0,0,.35);transition:transform 260ms var(--ease-out),box-shadow 260ms var(--ease-out)}.ds-tile:hover .ds-key{transform:translateY(-6px) rotate(-3deg);box-shadow:0 18px 24px -12px rgba(0,0,0,.95),inset 0 1px 0 rgba(255,255,255,.3),0 0 0 1px rgba(255,179,71,.35)}.ds-tile:active .ds-key{transform:scale(.95)} :focus-visible{outline:2px solid var(--gold);outline-offset:3px}"
+      "name": "Sticker",
+      "kind": "button",
+      "refersTo": "sticker",
+      "description": "The one blood surface: a tilted sign-off label that wobbles on click.",
+      "html": "<div class=\"ds-stage\"><button class=\"ds-sticker\">Thanks for scrolling!</button></div>",
+      "css": ":host{--plum:#3b1f5a;--plum-3:#1d1029;--plum-4:#120a1c;--lav:#b9a6e0;--blood:#c0283f;--blood-2:#f0a0aa;--blood-ink:#8c1426;--cream:#ece2d0;--frame:#c3ab86;--ink:#1c1418;--ink-2:#433840;--ink-3:#66595f;--w1:#fff;--w2:rgba(255,255,255,.88);--w3:rgba(255,255,255,.72);--tile:rgba(26,13,38,.7);--tile-line:rgba(255,255,255,.16);--font-display:\"Gloock\",\"Bodoni 72\",\"Didot\",Georgia,serif;--font-body:\"Rokkitt\",\"Rockwell\",\"Roboto Slab\",Georgia,serif;--ease-out:cubic-bezier(.23,1,.32,1)} .ds-stage{background:#120a1c;padding:24px;} .ds-sticker{display:inline-flex;align-items:center;gap:10px;padding:14px 22px;border:0;border-radius:3px;background:var(--blood-ink);color:var(--cream);font:600 1.05rem/1 var(--font-body);letter-spacing:.1em;text-transform:uppercase;cursor:pointer;transform:rotate(-4deg);box-shadow:0 14px 24px -12px rgba(12,6,20,.75);transition:transform 260ms var(--ease-out)} .ds-sticker:hover{transform:rotate(-1deg) translateY(-3px)} .ds-sticker:active{transform:rotate(-4deg) scale(.96)} .ds-sticker:focus-visible{outline:2px solid var(--blood);outline-offset:3px}"
     }
   ],
   "narrative": {
-    "northStar": "One Night Under One Tree",
-    "overview": "The whole system is a single night scene. A full-bleed WebGL sky runs from near-black zenith to a lit blue horizon. A particle tree glows electric blue above a gold horizon, and the camera drifts through it as the reader scrolls until dawn breaks at the contact close. Everything the reader touches sits on that night as frosted glass: plates, panels, pills and cards, edged with one-pixel white hairlines and lit by a warm-white ink. Nothing is printed on a page. Each surface floats in the sky.\n\nThere are exactly two lights, and each has one job. Blue is the cool light of the canopy, used for data, links and anything that grows. Gold is the warm horizon, used for the one answer that matters: the best move, the forecast, the focus ring, the highlighted row. Type follows the same split. A light, high-contrast serif carries the voice: names, headings and plate numbers. Karla does the work underneath. The page is spacious and cinematic at the top and denser inside the plates, where the reader operates real things such as tabs, a playable board and charts.\n\nMotion is damped and physical. Numbers and marks overshoot slightly, then settle. The camera eases toward the scroll position and never jumps to it. With reduced motion on, the night holds still at its first key, and all content stays readable without WebGL.",
+    "northStar": "The Great Hall at Midnight",
+    "overview": "The page is one continuous WebGL night inside a gothic mansion. The camera stands at the doors of a ten-bay vaulted nave: pointed arcades on clustered piers, ribbed groin vaults, rough ashlar walls, and a floor of polished black Nero Marquina marble. A grand stair rises to a landing under a great traceried window, where the moon hangs behind leaded glass. Iron candelabra line the nave, sparse and uneven, and an iron chandelier hangs in silhouette against the window. Violet fog, moonbeams thick with dust, cobwebs, tattered crimson banners, bats and falling dark-rose petals fill the air. The scroll is the visit: the camera walks down the nave, looks up into the vault under the chandelier, rises above the stair, and pulls back to the doors as the moon turns blood red for the contact close.\n\nContent does not sit on a page background. It sits on parchment objects and violet-glass tiles laid over the hall. These surfaces keep the THEMYSCIRA UI language: parchment cards with a hairline frame set just inside the edge, numbered violet-glass tiles checkerboarded against them, one giant-type parchment band for the creed, a turning round seal, and a numbered nav. Type is uppercase Gloock for anything that names (the wordmark, titles, numerals, tile labels) and Rokkitt slab for everything that explains. Blood red is the only warm UI accent. It appears as marks, never as large surfaces.\n\nThe daylight THEMYSCIRA garden (navy, periwinkle, rose and cream; the pool, blossom tree and stelae) and the earlier SKOTHYA night world are both retired. Their palettes are not reused (PRODUCT.md, Brand Commitments).",
     "keyCharacteristics": [
-      "A fixed WebGL night as the only background, with a CSS gradient as the painted fallback",
-      "Two lights only: blue canopy (cool, data) and gold horizon (warm, the answer)",
-      "Frosted night-glass surfaces with 1px white hairlines and an inset top highlight",
-      "Light serif display (300) for voice and counters, Karla for everything else",
-      "Pill controls throughout, with an ink \"thumb\" that slides to the active option",
-      "Damped, overshoot-then-settle motion; a scroll-driven camera that ends at dawn"
+      "A full-bleed, realistic 3D gothic hall at midnight is the page background. No flat page colour sits behind content.",
+      "Parchment surfaces carry a 1px inset frame and have zero corner radius on every card, tile and band.",
+      "Numbered violet-glass project tiles alternate sides against parchment cards.",
+      "Uppercase Gloock, with an arched SVG wordmark and a hand-built crossbar-less A.",
+      "Rokkitt slab for body text and the numbered nav (\"01/ WORK\").",
+      "One rotating round seal per context (the hero and the statement band).",
+      "Motion is damped and physical: the page-turn tilt out of the hero, the pointer tilt on contact tiles, flickering flames, drifting petals and wheeling bats."
     ],
     "rules": [
       {
-        "name": "The Two Lights Rule",
-        "body": "Blue is the cool light and gold is the warm light. Any new accent must be one of these two. Gold marks the single answer in a view (best move, forecast, focus), never decoration.",
+        "name": "The Midnight Violet Rule",
+        "body": "The hall reads violet-black: stone, fog, haze and the night sky stay in the plum family, and the only warm light comes from candle flames. Red enters the light only as the blood moon at the contact close.",
         "section": "colors"
       },
       {
-        "name": "The Blue-to-Gold Sky Rule",
-        "body": "The sky's gradient runs from ink to blue to gold to ember. It never passes through violet or magenta.",
+        "name": "The Accent-as-Mark Rule",
+        "body": "In the UI, blood is a line, a dot, a ring or a cell. The only blood surface is the \"Thanks for scrolling!\" sticker.",
         "section": "colors"
       },
       {
-        "name": "The Light Voice Rule",
-        "body": "Display type is weight 300 (400 for titles), never bold and never uppercase. Hierarchy comes from size and the serif/sans switch, not from weight.",
+        "name": "The Ink-on-Parchment Rule",
+        "body": "Near-black ink appears only on parchment. On the scene and on violet tiles, text is white at 100, 88 or 72%.",
+        "section": "colors"
+      },
+      {
+        "name": "The Capitals Name, Slab Explains Rule",
+        "body": "Every Gloock string is uppercase and names something. Every sentence is Rokkitt in sentence case.",
         "section": "typography"
       },
       {
-        "name": "The Sentence-Case Rule",
-        "body": "No uppercase tracking labels, kickers or eyebrows sit above headings. A heading stands alone, and context goes in a sentence below it.",
+        "name": "The Tabular Numbers Rule",
+        "body": "Live and comparative numbers (minimax values, search meta, the K-factor table, the clock) use tabular figures. Display numerals use lining figures.",
         "section": "typography"
       },
       {
-        "name": "The Shade-Not-Outline Rule",
-        "body": "Shadows always use a negative spread and pure black at 0.85–0.95 alpha. A shadow never shows as a hard offset copy of the shape.",
-        "section": "elevation"
-      },
-      {
-        "name": "The Glass Fallback Rule",
-        "body": "Every blurred surface has a solid fallback. Under `lowfx` (slow frames) or `prefers-reduced-transparency`, the blur drops and the fill becomes opaque night (#081333 or rgba(6,13,34,.9)).",
+        "name": "The Halo, Not Panel Rule",
+        "body": "White type over the 3D scene is made legible with a plum-black text-shadow halo or a local radial scrim, never by boxing it in a panel.",
         "section": "elevation"
       }
     ],
     "dos": [
-      "Do set every new surface as night glass: a `glass` or `glass-strong` fill, a 1px `line` hairline, an inset top highlight and a backdrop blur, with an opaque fallback for `lowfx` and reduced transparency.",
-      "Do make every control a pill, and show selection with a sliding warm-white ink thumb and a night-coloured label.",
-      "Do keep blue for data and links and gold for the one answer in each view.",
-      "Do set headings in Noto Serif Display 300 with negative tracking, and everything else in Karla.",
-      "Do number project plates with one consistent \"01 / 05\" serif counter.",
-      "Do let moving values overshoot and settle (back.out, cubic-bezier(.34,1.4,.64,1)), and give every animation a reduced-motion state.",
-      "Do keep content readable with WebGL off. The CSS sky gradient and flat contact tiles are the fallback."
+      "Do put every reading surface on parchment with the 1px inset frame and square corners.",
+      "Do number project tiles with a large white Gloock numeral, and alternate the tile and parchment body sides.",
+      "Do set names, titles and numerals in uppercase Gloock and all running copy in Rokkitt.",
+      "Do keep white text over the hall legible with the plum-black halo or a local scrim.",
+      "Do keep the hall violet-black with warm candle flames, and save red light for the blood moon at the close.",
+      "Do assign environment maps per material, keep the bloom input finite, supersample instead of MSAA, and keep point lights off geometry.",
+      "Do keep candles sparse and uneven, and let the frame edges fall into dark.",
+      "Do give every motion a reduced-motion state: The camera rests at the hero view and re-renders a still frame on scroll, resize or a solved puzzle. Time stops: flames, bats, petals and dust freeze. The seal stops, and the tiles do not tilt. The load timeline and the page turn are skipped. Smooth scrolling is off.",
+      "Do keep all content readable without WebGL. The painted CSS hall stands in: a vertical gradient from near-black through plum-3 and plum to a violet glow (#5a2a6e) at the horizon, then down through plum-2 and plum-4. The same fallback applies if the 3D modules fail to load.",
+      "Do keep the print stylesheet working: The page prints as a one-column résumé on white with a print-only name header. The scene, nav, fan, tiles, games, covers, medals and contact controls are removed. Link URLs are printed after project links, and Experience starts on a new page.",
+      "Do follow PRODUCT.md for all content limits."
     ],
     "donts": [
-      "Don't add a third light colour. Violet, magenta and green accents break the two-light night. The canopy's cyan tints (#59d6ff, #7fe0ff) are part of the blue light, not a separate accent.",
-      "Don't put uppercase eyebrows or kickers above headings.",
-      "Don't use hard offset shadows or visible drop outlines. Shadows are soft shade with negative spread.",
-      "Don't set display type bold or in all caps (the canvas wordmark is the single uppercase word).",
-      "Don't put light or white page sections into the night. Print is the only light mode.",
-      "Don't snap state changes. Pills, thumbs and cards move on `cubic-bezier(.23,1,.32,1)`."
+      "Don't reuse the retired palettes: the THEMYSCIRA daylight navy, periwinkle and rose, or the SKOTHYA night palette and its Noto Serif Display and Karla type.",
+      "Don't round cards, plates, tiles or the statement band. Radius belongs to controls and depicted objects.",
+      "Don't fill large UI surfaces with blood. The sticker is the only blood surface.",
+      "Don't smooth the hall into soft toy shapes or clean CG surfaces. Stone is rough, marble is veined and jointed, and glass is leaded and mottled.",
+      "Don't light every candle or line the nave evenly.",
+      "Don't let the floor become a clean mirror or let reflections run unclamped.",
+      "Don't put a small uppercase label above a heading. Uppercase tracked Rokkitt labels belong to the nav, buttons and data terms only.",
+      "Don't set ink on the scene or white on parchment."
     ]
   }
 }

@@ -38,8 +38,16 @@ A student who notices a problem at school and builds the fix: the school's websi
 ## Brand Commitments
 
 - Name: Raees Feysal Temam. Voice: plain, warm, factual, first person, no hype (matches his brag sheet).
-- The user pinned two references: visual design from the @danielsnows Instagram post "SKOTHYA" (night sky, glowing particle tree, gold horizon, IvyPresto Display + Karla, glass cards); layout from YASH's Collect UI portfolio (big name hero with 3D props and fanned project cards, selected work with a toggle, activity graph, stack, experience, contact with copy-email and a "thanks for scrolling" sign-off).
+- The user pinned two references. Visual design (replaced on 2026-10-25): the @danielsnows Instagram post "THEMYSCIRA". It has a sunlit dream world with a reflecting pool, a blossom tree and falling petals; Bentoga + Rokkitt type; an arched display wordmark with spaced letters above; cream inset-framed cards checkerboarded with photo tiles carrying big numerals; a giant-type statement band with a round seal; a numbered nav; 3D tilt transitions; and the palette navy #2c5279, periwinkle #c2c9e6, rose #e299a2, cream #f2e7e1. Layout: YASH's Collect UI portfolio (big name hero with 3D props and fanned project cards, selected work with a toggle, activity graph, stack, experience, contact with copy-email and a "thanks for scrolling" sign-off).
+- Confirmed on 2026-10-25: Ethiopian twist. Axum-style carved stelae, a stepped Aksumite plinth and Simien amba mountains replace the post's Greek rotunda; the post's palette, light and petals stay. Wordmark: "RAEES" arched, with "FEYSAL TEMAM" spaced above.
 - Tone confirmed: cinematic, with small playful surprises (a few 3D story objects that react to hover or click).
+- The earlier "SKOTHYA" night world is retired. Do not reuse its palette.
+- Changed by the user on 2026-10-25: the background becomes Dracula's mansion.
+  - It is a realistic, highly detailed gothic great hall (not rounded off) in deep purple, with a scary mood.
+  - It replaces the daylight THEMYSCIRA garden, including the Ethiopian stelae.
+  - The THEMYSCIRA UI language stays: arched wordmark, seal, numbered nav, checkerboard plates, statement band.
+  - The UI palette moves to plum, lavender, blood red and parchment.
+  - The daylight build is kept outside the repo as a fallback.
 - Lead project confirmed: the Sandford school website.
 
 ## Evidence on Hand
@@ -48,7 +56,8 @@ A student who notices a problem at school and builds the fix: the school's websi
 - Sandford school website: Astro build in `../school-website/web` (screenshots captured from `dist/`). Solo since Year 11, about 200 hours, HTML/CSS/JS/Astro + SEO, close to launch, in discussion with management.
 - Connect 4 Puzzle Trainer (IB CS IA): `../Connect-4-IA`. Python, Pygame, Matplotlib; minimax with alpha-beta, odd/even threat module, 15 puzzles verified with Pascal Pons's solver; built for his Year 9 sister.
 - Cafeteria sales forecaster: `../fb-prophet-forecasting`. Python, Prophet, pandas, Google Sheets output.
-- Digital Society Extended Essay: `C:\Users\rappe\Downloads\IB Digital Society EE.docx`. Elo on 27,909 ATP matches (2016–2026): Elo K=32 63.51% (Brier 0.1323), ATP ranking baseline 64.21%, betting odds 69.43% (n=20,848). Use these numbers only; the older draft's figures are not his.
+- Digital Society Extended Essay: `C:\Users\rappe\Downloads\IB Digital Society EE.docx`. Elo on 27,909 ATP matches (2016–2026): Elo K=32 63.51% (Brier 0.1323), ATP ranking baseline 64.21%, betting odds 69.43% (Brier 0.2017, n=20,848). K-factor table: K=16 63.03% (Brier 0.1521), K=32 63.51% (0.1323), K=64 63.70% (0.1134); 0.67 points between K=16 and K=64. Use these numbers only; the older draft's figures are not his.
+- IA write-up: `C:\Users\rappe\Downloads\Computer science IA.docx` (his sister is in Year 9 and was selected for Accelerated Mathematics).
 - Sharks Tales newsletter covers (Feb, Apr, Jun 2026) in `../school-website/web/public/images/newsletter/`.
 - Absences: no headshot, no résumé PDF, no LinkedIn, no live URL for the school site. Never fabricate quotes, awards, metrics or links.
 

@@ -28,7 +28,9 @@ OWN-WORLD:
   - moonlight through the great window, casting the tracery's shadow
   - violet haze, cobwebs, tattered crimson banners, bats and falling dark-rose petals
 
-STORY: The reader meets Raees and Addis in one line. They open five numbered pieces of proof (the school website, a playable Connect 4 trainer, the Elo essay's data, the canteen forecaster, the home server). They read his one-sentence creed in giant type, see what he leads, then email him as the moon turns blood red.
+STORY: The reader meets Raees and Addis in one line. They open five numbered pieces of proof (the school website, the Connect 4 trainer, the Elo essay's data, the canteen forecaster, the home server). They read his one-sentence creed in giant type, see what he leads, then email him as the moon turns blood red.
+
+**2026-10-30:** the Connect 4 plate is no longer playable. The live demo and its "Code on GitHub" link ran the IA's search algorithm in public, which raised an academic-integrity question; both are down pending the user's IB coordinator, and the plate shows one static puzzle position instead. The chandelier's "light a candle by solving a puzzle" raise below is correspondingly unreachable until the demo returns — don't treat that as a bug.
 
 FIRST VIEWPORT: A full-bleed WebGL interior looks down the candlelit nave toward a grand stair and a tall gothic window with the moon behind it. An iron chandelier hangs in silhouette against the glass. "RAEES" arches huge in white over the marble, with "F E Y S A L  T E M A M" arched small above. The numbered nav sits top right with "Let's talk", and the logo star top left. The tagline and a parchment "Twelve years at Sandford" card sit upper left over a plum scrim. Four fanned parchment project cards sit at the right. The round seal turns at the lower right. A Connect 4 disc, a medal and a paper plane float in the nave.
 

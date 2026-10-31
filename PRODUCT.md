@@ -32,7 +32,8 @@ A student who notices a problem at school and builds the fix: the school's websi
 
 - Contact: email `ftiraees@gmail.com` (confirmed for public display) and GitHub `hels07` (repos moved there from BlazeRayz). No LinkedIn or X account is known; do not invent one.
 - **Do not show test scores** (SAT left off by the user's choice). Do not mention the Year 12 Math/Physics grade dip. Do not list the universities he is applying to.
-- The school website repo (`hels07/school-website`) is private, so link to its description, not the code. Public repos: `hels07/Connect-4-IA`, `hels07/fb-prophet-forecasting`.
+- The school website repo (`hels07/school-website`) is private, so link to its description, not the code. Public repo: `hels07/fb-prophet-forecasting`.
+- `hels07/Connect-4-IA` was made private on 2026-10-30 pending an IB academic integrity check (the playable site demo ran a JS port of the same search publicly). The site's playable Connect 4 demo and its "Code on GitHub" link are removed for the same reason; the plate now shows one static puzzle position. Don't re-add either until the user says the coordinator has cleared it.
 - The cafeteria forecaster is still in development and currently runs on simulated transaction data; say so.
 
 ## Brand Commitments
@@ -52,11 +53,12 @@ A student who notices a problem at school and builds the fix: the school's websi
 
 ## Evidence on Hand
 
-- Brag sheet: `C:\Users\rappe\Downloads\Brag Sheet.pdf` (source of truth for activities and numbers).
+- Brag sheet: `C:\Users\rappe\Downloads\Brag Sheet.pdf` (source of truth for activities and numbers), **except**: the user corrected on 2026-10-30 that his Sharks Tales team was 12, not the brag sheet's "14, grew to about 22" — this matches his Common App and his teacher's recommendation letter, and the site now says 12. Also corrected: the league acronym is ISSAAA (not the brag sheet's ISSAA), to match his Common App.
 - Sandford school website: Astro build in `../school-website/web` (screenshots captured from `dist/`). Solo since Year 11, about 200 hours, HTML/CSS/JS/Astro + SEO, close to launch, in discussion with management.
 - Connect 4 Puzzle Trainer (IB CS IA): `../Connect-4-IA`. Python, Pygame, Matplotlib; minimax with alpha-beta, odd/even threat module, 15 puzzles verified with Pascal Pons's solver; built for his Year 9 sister.
 - Cafeteria sales forecaster: `../fb-prophet-forecasting`. Python, Prophet, pandas, Google Sheets output.
-- Digital Society Extended Essay: `C:\Users\rappe\Downloads\IB Digital Society EE.docx`. Elo on 27,909 ATP matches (2016–2026): Elo K=32 63.51% (Brier 0.1323), ATP ranking baseline 64.21%, betting odds 69.43% (Brier 0.2017, n=20,848). K-factor table: K=16 63.03% (Brier 0.1521), K=32 63.51% (0.1323), K=64 63.70% (0.1134); 0.67 points between K=16 and K=64. Use these numbers only; the older draft's figures are not his.
+- Digital Society Extended Essay: `C:\Users\rappe\Downloads\IB Digital Society EE.docx`. Elo on 27,909 ATP matches (2016–2026): Elo K=32 63.51%, ATP ranking baseline 64.21%, betting odds 69.43% (n=20,848). K-factor table: K=16 63.03%, K=32 63.51%, K=64 63.70%; 0.67 points between K=16 and K=64. Use these accuracy numbers only.
+  - **Brier scores retracted 2026-10-30:** the user reported that his EE's Brier-score code scored the probability of the predicted player rather than the actual winner. Correctly scored, Elo's Brier is reportedly about 0.221 — worse than the betting odds' 0.202, not better. The site no longer shows any Brier figures. The EE document itself still needs the same correction; that's on the user, not this repo.
 - IA write-up: `C:\Users\rappe\Downloads\Computer science IA.docx` (his sister is in Year 9 and was selected for Accelerated Mathematics).
 - Sharks Tales newsletter covers (Feb, Apr, Jun 2026) in `../school-website/web/public/images/newsletter/`.
 - Absences: no headshot, no résumé PDF, no LinkedIn, no live URL for the school site. Never fabricate quotes, awards, metrics or links.
